@@ -6,16 +6,15 @@
 
 __Easy:__
 
-- 217 [Contains Duplicate](ContainsDuplicate/ContainsDuplicate.md)
-- 66 [Plus One](PlusOne/PlusOne.md)
-- 189 [Rotate Array](RotateArray/RotateArray.md)
-- 27 [Remove Element](RemoveElement/RemoveElement.md)
-- 26 [Remove Duplicates from Sorted Array](RemoveDuplcatesfromSortedArray/RemoveDuplicatesfromSortedArray.md)
-- 228 [Summary Ranges](SummaryRange/SummaryRanges.md)
-- 118 Pascal's Triangle
-- 119 Pascal's Triangle II
-- 283 Move Zeroes
-- 88 Merge Sorted Array
+- 217 [Contains Duplicate](cpp/ContainsDuplicate/ContainsDuplicate.md)
+- 66 [Plus One](cpp/PlusOne/PlusOne.md)
+- 27 [Remove Element](cpp/RemoveElement/RemoveElement.md)
+- 26 [Remove Duplicates from Sorted Array](cpp/RemoveDuplcatesfromSortedArray/RemoveDuplicatesfromSortedArray.md)
+- 228 [Summary Ranges](cpp/SummaryRange/SummaryRanges.md)
+- 118 [Pascal's Triangle](cpp/PascalsTriangle/PascalsTriangle.md)
+- 119 [Pascal's Triangle II](cpp/PascalsTriangleII/PascalsTriangleII.md)
+- 283 [Move Zeroes](cpp/MoveZeroes/MoveZeroes.md)
+- 88 [Merge Sorted Array](cpp/MergeSortedArray/MergeSortedArray.md)
 - 169 Majority Element
 - 219 Contains Duplicate II
 
