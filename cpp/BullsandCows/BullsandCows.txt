@@ -1,0 +1,27 @@
+Assumption:
+secret: “1807”
+guess: 	“7810”
+
+Run:
+int appears_in_secret[10], appears_in_guess[10], bulls[10];
+int total_bulls, total_cows;
+
+string getHint(“1807”, “7810”) {
+	for(i=0; i<secret.size()=4; i++) {
+		appears_in_secret[secret[0]-‘0’]++;
+	}
+
+	for(i=0; i<guess.size()=4; i++) {
+		if(secret[0]=1 == guess[0]=7) /*False*/
+		appears_in_guess[guess[0]=7]
+	}
+
+	/*appears_in_secret = {1,1,0,0,0,0,0,1,1,0}
+	  appears_in_guess  = {1,1,0,0,0,0,0,1,1,0}
+	  bulls		    = {0,0,0,0,0,0,0,0,1,0}
+	 */
+
+	for(i=0; i<=9; i++) {
+		total_bulls
+	}
+}

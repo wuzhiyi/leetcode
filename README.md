@@ -6,17 +6,17 @@
 
 __Easy:__
 
-- 217 [Contains Duplicate](cpp/ContainsDuplicate/ContainsDuplicate.md)
-- 66 [Plus One](cpp/PlusOne/PlusOne.md)
-- 27 [Remove Element](cpp/RemoveElement/RemoveElement.md)
-- 26 [Remove Duplicates from Sorted Array](cpp/RemoveDuplcatesfromSortedArray/RemoveDuplicatesfromSortedArray.md)
-- 228 [Summary Ranges](cpp/SummaryRange/SummaryRanges.md)
-- 118 [Pascal's Triangle](cpp/PascalsTriangle/PascalsTriangle.md)
-- 119 [Pascal's Triangle II](cpp/PascalsTriangleII/PascalsTriangleII.md)
-- 283 [Move Zeroes](cpp/MoveZeroes/MoveZeroes.md)
-- 88 [Merge Sorted Array](cpp/MergeSortedArray/MergeSortedArray.md)
-- 169 Majority Element
-- 219 Contains Duplicate II
+- 217-[Contains Duplicate](cpp/ContainsDuplicate/ContainsDuplicate.md) `public` `vector` `unordered_map` `for(auto count:counts)`
+- 66 -[Plus One](cpp/PlusOne/PlusOne.md) `vector` `sizeof()`
+- 27 -[Remove Element](cpp/RemoveElement/RemoveElement.md) `continue`
+- 26 -[Remove Duplicates from Sorted Array](cpp/RemoveDuplcatesfromSortedArray/RemoveDuplicatesfromSortedArray.md)
+- 228-[Summary Ranges](cpp/SummaryRange/SummaryRanges.md) `ostringstream`
+- 118-[Pascal's Triangle](cpp/PascalsTriangle/PascalsTriangle.md) `namespace` `vector` `endl`
+- 119-[Pascal's Triangle II](cpp/PascalsTriangleII/PascalsTriangleII.md) `argc,argv`
+- 283-[Move Zeroes](cpp/MoveZeroes/MoveZeroes.md)
+- 88 -[Merge Sorted Array](cpp/MergeSortedArray/MergeSortedArray.md)
+- 169-[Majority Element](cpp/MajorityElement/MajorityElement.md) `stringstream` `istream::getline` `string::c_str`
+- 219-[Contains Duplicate II](cpp/ContainsDuplicateII/ContainsDuplicateII.md)
 
 __Medium__:
 
@@ -65,12 +65,12 @@ __Medium__:
 
 __Easy:__
 
-- 290 Word Pattern
-- 299 Bulls and Cows
-- 219 Contains Duplicate II
-- 217 Contains Duplicate
-- 205 Isomporphic Strings
-- 242 Valid Anagram
+- 290-[Word Pattern](cpp/WordPattern/WordPattern.md)
+- 299-[Bulls and Cows](cpp/BullsandCows/BullsandCows.md) `to_string`
+- 219-[Contains Duplicate II](cpp/ContainsDuplicateII/ContainsDuplicateII.md)
+- 217-[Contains Duplicate](cpp/ContainsDuplicate/ContainsDuplicate.md)
+- 205-[Isomporphic Strings](cpp/IsomorphicStrings/IsomorphicStrings.md) `char`
+- 242-[Valid Anagram](cpp/ValidAnagram/ValidAnagram.md) `sort`
 - 36 Valid Sudoku
 - 202 Happy Number
 - 204 Count Primes
