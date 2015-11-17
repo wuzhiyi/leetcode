@@ -6,17 +6,17 @@
 
 __Easy:__
 
-- 217-[Contains Duplicate](cpp/ContainsDuplicate/ContainsDuplicate.md) `public` `vector` `unordered_map` `for(auto count:counts)`
-- 66 -[Plus One](cpp/PlusOne/PlusOne.md) `vector` `sizeof()`
-- 27 -[Remove Element](cpp/RemoveElement/RemoveElement.md) `continue`
-- 26 -[Remove Duplicates from Sorted Array](cpp/RemoveDuplcatesfromSortedArray/RemoveDuplicatesfromSortedArray.md)
-- 228-[Summary Ranges](cpp/SummaryRange/SummaryRanges.md) `ostringstream`
-- 118-[Pascal's Triangle](cpp/PascalsTriangle/PascalsTriangle.md) `namespace` `vector` `endl`
-- 119-[Pascal's Triangle II](cpp/PascalsTriangleII/PascalsTriangleII.md) `argc,argv`
-- 283-[Move Zeroes](cpp/MoveZeroes/MoveZeroes.md)
-- 88 -[Merge Sorted Array](cpp/MergeSortedArray/MergeSortedArray.md)
-- 169-[Majority Element](cpp/MajorityElement/MajorityElement.md) `stringstream` `istream::getline` `string::c_str`
-- 219-[Contains Duplicate II](cpp/ContainsDuplicateII/ContainsDuplicateII.md)
+- 217 [Contains Duplicate](cpp/ContainsDuplicate/ContainsDuplicate.md) `public` `vector` `unordered_map` `for(auto count:counts)`
+- 66 [Plus One](cpp/PlusOne/PlusOne.md) `vector` `sizeof()`
+- 27 [Remove Element](cpp/RemoveElement/RemoveElement.md) `continue`
+- 26 [Remove Duplicates from Sorted Array](cpp/RemoveDuplcatesfromSortedArray/RemoveDuplicatesfromSortedArray.md)
+- 228 [Summary Ranges](cpp/SummaryRange/SummaryRanges.md) `ostringstream`
+- 118 [Pascal's Triangle](cpp/PascalsTriangle/PascalsTriangle.md) `namespace` `vector` `endl`
+- 119 [Pascal's Triangle II](cpp/PascalsTriangleII/PascalsTriangleII.md) `argc,argv`
+- 283 [Move Zeroes](cpp/MoveZeroes/MoveZeroes.md)
+- 88 [Merge Sorted Array](cpp/MergeSortedArray/MergeSortedArray.md)
+- 169 [Majority Element](cpp/MajorityElement/MajorityElement.md) `stringstream` `istream::getline` `string::c_str`
+- 219 [Contains Duplicate II](cpp/ContainsDuplicateII/ContainsDuplicateII.md)
 
 __Medium__:
 
@@ -65,15 +65,15 @@ __Medium__:
 
 __Easy:__
 
-- 290-[Word Pattern](cpp/WordPattern/WordPattern.md)
-- 299-[Bulls and Cows](cpp/BullsandCows/BullsandCows.md) `to_string`
-- 219-[Contains Duplicate II](cpp/ContainsDuplicateII/ContainsDuplicateII.md)
-- 217-[Contains Duplicate](cpp/ContainsDuplicate/ContainsDuplicate.md)
-- 205-[Isomporphic Strings](cpp/IsomorphicStrings/IsomorphicStrings.md) `char`
-- 242-[Valid Anagram](cpp/ValidAnagram/ValidAnagram.md) `sort`
-- 36 Valid Sudoku
-- 202 Happy Number
-- 204 Count Primes
+- 290 [Word Pattern](cpp/WordPattern/WordPattern.md)
+- 299 [Bulls and Cows](cpp/BullsandCows/BullsandCows.md) `to_string`
+- 219 [Contains Duplicate II](cpp/ContainsDuplicateII/ContainsDuplicateII.md)
+- 217 [Contains Duplicate](cpp/ContainsDuplicate/ContainsDuplicate.md)
+- 205 [Isomporphic Strings](cpp/IsomorphicStrings/IsomorphicStrings.md) `char`
+- 242 [Valid Anagram](cpp/ValidAnagram/ValidAnagram.md) `sort`
+- 36 [Valid Sudoku](cpp/ValidSudoku/ValidSudoku.md) `isdigit`
+- 202 [Happy Number](cpp/HappyNumber/HappyNumber.md) `map` `atoi`
+- 204 [Count Primes](cpp/CountPrimes/CountPrimes.md) `vector<bool>`
 
 __Medium:__
 
@@ -90,9 +90,9 @@ __Medium:__
 
 __Easy:__
 
-- 206 Reverse Linked List
-- 19 Remove Nth Node From End of List
-- 237 Delete Node in a Linked List
+- 206 [Reverse Linked List](cpp/ReverseLinkedList/ReverseLinkedList.md)
+- 19 [Remove Nth Node From End of List](cpp/RemoveNthNodeFromEndofList/RemoveNthNodeFromEndofList.md)
+- 237 [Delete Node in a Linked List](cpp/DeleteNodeinaLinkedList/DeleteNodeinaLinkedList.md)
 - 21 Merge Two Sorted Lists
 - 234 Palindrome Linked List
 - 83 Remove Duplicates from Sorted List
@@ -118,12 +118,12 @@ __Medium:__
 
 __Easy:__
 
-- 202 Happy Number
+- 202 [Happy Number](cpp/HappyNumber/HappyNumber.md) `map` `atoi`
 - 67 Add Binary
 - 8 String to Integer (atoi)
 - 171 Excel Sheet Column Number
 - 263 Ugly Number
-- 66 Plus One
+- 66 [Plus One](cpp/PlusOne/PlusOne.md)
 - 231 Power of Two
 - 258 Add Digits
 - 223 Rectangle Area
@@ -131,7 +131,7 @@ __Easy:__
 - 168 Excel Sheet Column Title
 - 9 Palindrome Number
 - 7 Reverse Integer
-- 204 Count Primes
+- 204 [Count Primes](cpp/CountPrimes/CountPrimes.md)
 - 13 Roman to Integer
 
 __Medium:__
@@ -156,13 +156,13 @@ __Medium:__
 __Easy:__
 
 - 125 Valid Palindrome
-- 19 Remove Nth Node From End of List
+- 19 [Remove Nth Node From End of List](cpp/RemoveNthNodeFromEndofList/RemoveNthNodeFromEndofList.md)
 - 27 Remove Element
 - 26 Remove Duplicates from Sorted Array
 - 234 Palindrome Linked List
-- 88 Merge Sorted Array
+- 88 [Merge Sorted Array](cpp/MergeSortedArray/MergeSortedArray.md)
 - 28 Implement strStr()
-- 283 Move Zeroes
+- 283 [Move Zeroes](cpp/MoveZeroes/MoveZeroes.md)
 
 __Medium:__
 
@@ -239,7 +239,7 @@ __Medium:__
 
 __Easy:__
 
-- 169 Majority Element
+- 169 [Majority Element](cpp/MajorityElement/MajorityElement.md) `stringstream` `istream::getline` `string::c_str`
 
 __Medium:__
 
@@ -346,7 +346,7 @@ __Medium:__
 
 __Easy:__
 
-- 169 Majority Element
+- 169 [Majority Element]((cpp/MajorityElement/MajorityElement.md) `stringstream` `istream::getline` `string::c_str`)
 - 231 Power of Two
 - 191 Number of 1 Bits
 - 190 Reverse Bits
@@ -468,7 +468,7 @@ __Medium:__
 __Medium:__
 
 - 208 Implement Trie (Prefix Tree)
-- Add and Search Word - Data structure design
+- 211 Add and Search Word - Data structure design
 
 ##Binary Search Tree
 
