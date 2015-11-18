@@ -15,8 +15,10 @@ __Code:__
 	 */
 	class Solution {
 	public:
-	    //becasue the deleted is not the tail.
-	    //将该node->next的val赋值给当前node，然后node->next指向node->next->next
+	    /* 1. 删除的并不是末尾结点
+	     * 2. 将该node->next的val赋值给当前node，然后node->next指向node->next->next
+	     * 3. 因为给定的是该结点的指针，所以并不能直接访问该结点的前一个结点
+	     */
 	    void deleteNode(ListNode* node) {
 	        node->val = node->next->val;
 	        node->next = node->next->next;
