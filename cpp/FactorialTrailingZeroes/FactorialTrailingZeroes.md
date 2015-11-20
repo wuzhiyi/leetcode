@@ -55,7 +55,7 @@ __Code:__
 
 	class Solution {
 	    public:
-	        int trailingZeroes(int n) {
+	        int trailingZeroes1(int n) {
 	            int result = 0;
 	            //To avoid the integer overflow ( e.g. 'n >=1808548329' )
 	            for(long long i=5; n/i>0 && i <= INT_MAX; i*=5){
@@ -65,7 +65,7 @@ __Code:__
 	        }
 
 	        // Alternative implementation which naturally avoid integer overflow issue.
-	        int trailingZeroes(int n) {
+	        int trailingZeroes2(int n) {
 	            int sum=0;
 	            int tmp=0;
 	            while(n/5>0)
@@ -75,5 +75,15 @@ __Code:__
 	                n=tmp;
 	            }
 	            return sum;
+	        }
+
+	        /* 计算因子5的个数(因为因子2的个数一定大于因子5的个数)
+	        int trailingZeroes(int n) {
+	        	int res = 0;
+	        	while(n) {
+	        		res += n/5;
+	        		n /= 5;
+	        	}
+	        	return res;
 	        }
 	};

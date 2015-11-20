@@ -126,11 +126,11 @@ __Easy:__
 - 66 [Plus One](cpp/PlusOne/PlusOne.md)
 - 231 [Power of Two](cpp/PowerofTwo/PowerofTwo.md)
 - 258 [Add Digits](cpp/AddDigits/AddDigits.md)
-- 223 [Rectangle Area]()
-- 172 [Factorial Trailling Zeroes]()
+- 223 [Rectangle Area](cpp/RectangleArea/RectangleArea.md)
+- 172 [Factorial Trailling Zeroes](cpp/FactorialTrailingZeroes/FactorialTrailingZeroes.md)
 - 168 [Excel Sheet Column Title](cpp/ExcelSheetColumnTitle/ExcelSheetColumnTitle.md)
 - 9 [Palindrome Number](cpp/PalindromeNumber/PalindromeNumber.md)
-- 7 [Reverse Integer]()
+- 7 [Reverse Integer](cpp/ReverseInteger/ReverseInteger.md)
 - 204 [Count Primes](cpp/CountPrimes/CountPrimes.md)
 - 13 [Roman to Integer](cpp/RomantoInteger/RomantoInteger.md)
 
@@ -155,11 +155,11 @@ __Medium:__
 
 __Easy:__
 
-- 125 [Valid Palindrome]()
+- 125 [Valid Palindrome](cpp/ValidPalindrome/ValidPalindrome.md)
 - 19 [Remove Nth Node From End of List](cpp/RemoveNthNodeFromEndofList/RemoveNthNodeFromEndofList.md)
-- 27 [Remove Element]()
-- 26 [Remove Duplicates from Sorted Array]()
-- 234 [Palindrome Linked List]()
+- 27 [Remove Element](cpp/RemoveElement/RemoveElement.md)
+- 26 [Remove Duplicates from Sorted Array](cpp/RemoveDuplicatesfromSortedArray/RemoveDuplicatesfromSortedArray.md)
+- 234 [Palindrome Linked List](cpp/PalindromeLinkedList/PalindromeLinkedList.md)
 - 88 [Merge Sorted Array](cpp/MergeSortedArray/MergeSortedArray.md)
 - 28 [Implement strStr()]()
 - 283 [Move Zeroes](cpp/MoveZeroes/MoveZeroes.md)
@@ -183,16 +183,16 @@ __Medium:__
 
 __Easy:__
 
-- 14 [Longest Common Prefix]()
-- 67 [Add Binary]()
-- 20 [Valid Parentheses]()
+- 14 [Longest Common Prefix](cpp/LongestCommonPrefix/LongestCommonPrefix.md)
+- 67 [Add Binary](cpp/AddBinary/AddBinary.md)
+- 20 [Valid Parentheses](cpp/ValidParentheses/ValidParentheses.md) `back` `pop_back` `push_back`
 - 165 [Compare Version Numbers]()
 - 38 [Count and Say]()
 - 58 [Length of Last Word]()
 - 6 [ZiaZag Conversion]()
-- 125 [Valid Palindrome]()
-- 8 [String to Integer (atoi)]()
-- 13 [Roman to Integer]()
+- 125 [Valid Palindrome](cpp/ValidPalindrome/ValidPalindrome.md)
+- 8 [String to Integer (atoi)](cpp/StringtoIntegeratoi/StringtoIntegeratoi.md)
+- 13 [Roman to Integer](cpp/RomantoInteger/RomantoInteger.md)
 - 28 [Implement strStr()]()
 
 __Medium:__
@@ -215,7 +215,7 @@ __Medium:__
 
 __Easy:__
 
-- 278 [First Bad Version]()
+- 278 [First Bad Version](cpp/FirstBadVersion/FirstBadVersion.md)
 
 __Medium:__
 
@@ -303,7 +303,10 @@ __Easy:__
 - 232 [Implement Queue using Stacks]()
 - 155 [Min Stack]()
 - 225 [Implement Stack using Queues]()
-- 20 [Valid Parentheses]()
+- 20 [Valid Parentheses](cpp/ValidParentheses/ValidParentheses.md) `back` `pop_back` `push_back`
+
+__Medium:__
+
 - 173 [Binary Search Tree Iterator]()
 - 71 [Simplify Path]()
 - 94 [Binary Tree Inorder Traversal]()
@@ -347,7 +350,7 @@ __Medium:__
 __Easy:__
 
 - 169 [Majority Element]((cpp/MajorityElement/MajorityElement.md) `stringstream` `getline` `c_str`)
-- 231 [Power of Two]()
+- 231 [Power of Two](cpp/PowerofTwo/PowerofTwo.md)
 - 191 [Number of 1 Bits]()
 - 190 [Reverse Bits]()
 

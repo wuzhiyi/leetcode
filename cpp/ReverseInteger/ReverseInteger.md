@@ -18,11 +18,13 @@ __Code:__
 	#include <stdio.h>
 	#include <stdlib.h>
 
-	//Why need the INT_MIN be defined like that?
-	//Please take a look: 
-	//  http://stackoverflow.com/questions/14695118/2147483648-0-returns-true-in-c
+	/* Why need the INT_MIN be defined like that?
+	 * Please take a look: 
+	 * http://stackoverflow.com/questions/14695118/2147483648-0-returns-true-in-c
+	 */
 	#define INT_MAX     2147483647
 	#define INT_MIN     (-INT_MAX - 1)
+	
 	int reverse(int x) {
 	    int y=0;
 	    int n;
