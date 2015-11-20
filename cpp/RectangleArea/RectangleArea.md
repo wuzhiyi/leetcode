@@ -10,6 +10,7 @@ __Code:__
 	#include <iostream>
 	using namespace std;
 
+	//自定义namespace
 	namespace leetcode 
 	{
 	    class Point {

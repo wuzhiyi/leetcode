@@ -11,12 +11,12 @@ __Code:__
 	    //贪婪算法
 	    bool isUgly(int num) {
 	        if ( num == 0 ) return false;
+	        //对特殊情况num=1进行判断
 	        if ( num == 1 ) return true;
-	        //becasue the 2,3,5 are prime numbers, so, we just simply remove each factors 
-	        //by keeping dividing them one by one 
-	        while ( num % 2 == 0 ) num /= 2;
-	        while ( num % 3 == 0 ) num /= 3;
-	        while ( num % 5 == 0 ) num /= 5;
+	        //因为2,3,5是质数，所以直接除去该因数
+	        while (num % 2 == 0) num /= 2;
+	        while (num % 3 == 0) num /= 3;
+	        while (num % 5 == 0) num /= 5;
 	        
 	        return num == 1;
 	    }

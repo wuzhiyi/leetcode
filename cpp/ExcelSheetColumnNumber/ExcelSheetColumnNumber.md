@@ -20,18 +20,19 @@ __Code:__
 	#include <string>
 	using namespace std;
 
-
+	//int->str
 	string base26_int2str(long long n) {
 	    string ret;
 	    while(n>0){
 	        char ch = 'A' + (n-1)%26;
-	        ret.insert(ret.begin(), ch  );
+	        ret.insert(ret.begin(), ch);
 	        n -= (n-1)%26;
 	        n /= 26;
 	    }
 	    return ret;
 	}
 
+	//str->int
 	long long base26_str2int(string& s){
 	    long long ret=0;
 	    for (int i=0; i<s.size(); i++){
@@ -41,16 +42,11 @@ __Code:__
 	    return ret;
 	}
 
-
-	string titleToNumber(int n) {
-	    return base26_str2int(n);
-	}
-
 	int main(int argc, char**argv)
 	{
 	    long long n = 27; 
 	    if (argc>1){
-	        n = atoll(argv[1]);
+	        n = atoll(argv[1]);						//1
 	    }
 	    string ns = base26_int2str(n);
 	    n = base26_str2int(ns);
@@ -64,3 +60,26 @@ __Code:__
 	    }
 	    cout << ns << " = " << base26_str2int(ns) << endl;
 	}
+
+###1 atoll
+
+头文件：`<stdlib.h>`
+
+语法：
+
+	long long atoll(const char *str);
+
+Interprets an integer value in a byte string pointed to by `str`.</br>
+
+Discards any whitespace characters until the first non-whitespace character is found, then takes as many characters as possible to form a valid integer number representation and converts them to an integer value. The valid integer value consists of the following parts:
+
+- (optional) plus or minus sign
+- numeric digits
+
+####Parameters
+
+- `str` - pointer to the null-terminated bytes string to be interpreted.
+
+####Return value
+
+Interger value corresponding to the contents of `str` on success. If the converted value falls out of range of corresponding return type, the return value is undefined. If no conversion can be performed, `0` is returned.

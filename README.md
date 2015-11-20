@@ -119,20 +119,20 @@ __Medium:__
 __Easy:__
 
 - 202 [Happy Number](cpp/HappyNumber/HappyNumber.md) `map` `atoi`
-- 67 [Add Binary]()
-- 8 [String to Integer (atoi)]()
-- 171 [Excel Sheet Column Number]()
-- 263 [Ugly Number]()
+- 67 [Add Binary](cpp/AddBinary/AddBinary.md) `size` `insert` `&`
+- 8 [String to Integer (atoi)](cpp/StringtoIntegeratoi/StringtoIntegeratoi.md) `isspace` `isdigit`
+- 171 [Excel Sheet Column Number](cpp/ExcelSheetColumnNumber/ExcelSheetColumnNumber.md) `atoll`
+- 263 [Ugly Number](cpp/UglyNumber/UglyNumber.md)
 - 66 [Plus One](cpp/PlusOne/PlusOne.md)
-- 231 [Power of Two]()
-- 258 [Add Digits]()
+- 231 [Power of Two](cpp/PowerofTwo/PowerofTwo.md)
+- 258 [Add Digits](cpp/AddDigits/AddDigits.md)
 - 223 [Rectangle Area]()
 - 172 [Factorial Trailling Zeroes]()
-- 168 [Excel Sheet Column Title]()
-- 9 [Palindrome Number]()
+- 168 [Excel Sheet Column Title](cpp/ExcelSheetColumnTitle/ExcelSheetColumnTitle.md)
+- 9 [Palindrome Number](cpp/PalindromeNumber/PalindromeNumber.md)
 - 7 [Reverse Integer]()
 - 204 [Count Primes](cpp/CountPrimes/CountPrimes.md)
-- 13 [Roman to Integer]()
+- 13 [Roman to Integer](cpp/RomantoInteger/RomantoInteger.md)
 
 __Medium:__
 

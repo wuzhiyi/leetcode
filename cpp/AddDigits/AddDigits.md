@@ -18,18 +18,7 @@ __Code:__
 	class Solution {
 	    public:
 
-	        int addDigits(int num) {
-	            switch(random()%5+1){
-	                case 1: return addDigits01(num);
-	                case 2: return addDigits02(num);
-	                case 3: return addDigits03(num);
-	                case 4: return addDigits04(num);
-	                default: return addDigits05(num);
-	            }
-
-	        }
-
-	        //regualr way
+	        //解法1:常规法
 	        int addDigits01(int num) {
 	            while(num > 9) {
 	                int sum;
