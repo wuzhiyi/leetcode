@@ -7,11 +7,19 @@ __Code:__
 
 	class Solution {
 	public:
-	    int hammingWeight(uint32_t n) {
+	    int hammingWeight(uint32_t n) {		//1
 	        int cnt = 0;
 	        for(;n>0; n/=2){
-	            if (n & 0x1) cnt++;
+	            if (n & 0x1) cnt++;			//2
 	        }
 	        return cnt;
 	    }
 	};
+
+###1 uint32_t
+
+Fixed width integer types (since C++11). Unsigned integer type with width of exactly 32 bits. (provided only if the implementation directly supports the type) 
+
+###2 0x
+
+C++ 语言中以 0x 开头接 0~9 和 a~f (同A~F) 表示的数为十六进制数.

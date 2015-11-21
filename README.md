@@ -50,7 +50,7 @@ __Medium__:
 - 105 [Construct Binary Tree from Preorder and Inorder Traversal]()
 - 229 [Majority Element II]()
 - 79 [Word Search]()
-- 55 [Jump Game]()
+- 55 [Jump Game](cpp/JumpGame/JumpGame.md)
 - 78 [Subsets]()
 - 90 [Subsets II]()
 - 289 [Game of Life]()
@@ -253,7 +253,7 @@ __Medium:__
 __Easy:__
 
 - 303 [Range Sum Query - Immutable]()
-- 70 [Climbing Stairs]()
+- 70 [Climbing Stairs](cpp/ClimbingStairs/ClimbingStairs.md)
 - 198 [House Robber]()
 
 __Medium:__
@@ -351,8 +351,8 @@ __Easy:__
 
 - 169 [Majority Element]((cpp/MajorityElement/MajorityElement.md) `stringstream` `getline` `c_str`)
 - 231 [Power of Two](cpp/PowerofTwo/PowerofTwo.md)
-- 191 [Number of 1 Bits]()
-- 190 [Reverse Bits]()
+- 191 [Number of 1 Bits](cpp/Numberof1Bits/Numberof1Bits.md) `uint32_t` `0x`
+- 190 [Reverse Bits](cpp/ReverseBits/ReverseBits.md)
 
 __Medium:__
 
