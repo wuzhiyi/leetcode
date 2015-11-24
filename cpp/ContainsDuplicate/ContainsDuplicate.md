@@ -2,7 +2,23 @@
 URL: https://leetcode.com/problems/contains-duplicate/</br>
 Given an array of integers, find if the array contains any duplicates. Your function should return true if any value appears at least twice in the array, and it should return false if every element is distinct.
 
-Code:
+###解法1: Hash法
+
+用一个set记录所有已经出现过的数字，若出现冲突，则包含重复元素，若不冲突，则不包含重复元素。时间复杂度为O(n)，空间复杂度为O(n).
+
+###解法2: 排序法
+
+先将数组排序，然后扫描一次数组，若出现相邻的两个数相同，则包含重复元素，否则没有。此方法时间复杂度为O（nlogn），空间复杂度为O（1)(取决于排序方法).
+
+####笔记
+
+- 要考虑 nums 只有一个元素的情况
+
+###解法3: map法
+
+初始化一个 map<int, bool> 数组，使用 for(auto count:counts) 查找.
+
+###Code:
 
 	class Solution {
 	//公有函数成员

@@ -39,7 +39,6 @@ __Code:__
 	            if ( nums[p2] == 0 ) continue;
 	            nums[p1++] = nums[p2]; 
 	        }    
-	         
 	        while ( p1<nums.size() ) nums[p1++] = 0;
 	    }
 

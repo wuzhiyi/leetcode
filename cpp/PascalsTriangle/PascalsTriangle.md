@@ -33,7 +33,7 @@ __Code:__
 	            v.push_back(1);											//2
 	        } else {
 	            v.push_back(1);
-	            for(int j=0; j<pascalTriangle[i-1].size()-1; j++){		//3
+	            for(int j=0; j<pascalTriangle[i-1].size(); j++){		//3
 	            	//把pascal上一行两个元素相加，并将其和加入v数组中
 	                v.push_back(pascalTriangle[i-1][j] + pascalTriangle[i-1][j+1]);
 	            }

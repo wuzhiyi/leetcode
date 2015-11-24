@@ -3,7 +3,22 @@ URL: https://leetcode.com/problems/plus-one/</br>
 Given a non-negative number represented as an array of digits, plus one to the number.</br>
 The digits are stored such that the most significant digit is at the head of the list.
 
-Code:
+###解法1: 弹出
+
+1. 初始化一个 vector<int> 数组 ret 和一个 carry，carry 初始值为 1.
+2. 每次取 digits 最后一个元素，加上 carry 后的和，插入 ret.
+3. digits 弹出最后一个元素
+
+另外需考虑当 digits 所有元素都弹出后，carry 是否为 0，不为 0，插入 ret 开头。
+
+###解法2: 常规
+
+1. 从 digits 最末尾开始，元素加 1
+2. 判断加 1 后的元素，若小于 10，直接退出循环；
+3. 若等于 10，此位 %10；
+4. 再判断若此位为 digits 最高位，则再最高位前插入 1.
+
+####解法1, Code:
 	
 	#include <iostream>
 	#include <vector>
@@ -17,7 +32,7 @@ Code:
 	    vector <int> v;										//1
 	    //digits中存在元素
 	    while(digits.size()>0){								//2
-	    	//若整数x等于digits最后一个元素
+	    	//整数x等于digits最后一个元素
 	        int x = digits.back();							//3
 	        //容器大小减一，同时删除最后一个元素
 	        digits.pop_back();								//4
@@ -113,3 +128,4 @@ sizeof 的三种语法形式：
 	sizeof(obect);
 	sizeof object;
 	sizeof(type_name);
+

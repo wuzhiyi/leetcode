@@ -6,26 +6,3 @@ You may assume that _nums1_ has enough space (size that is greater or equal to _
 
 __Code:__
 
-	class Solution {
-	public:
-		//将nums1扩充为m+n,然后从尾巴开始，选择nums1和nums2中较大值赋值
-	    void merge(int A[], int m, int B[], int n) {
-	        int i = m - 1;
-	        int j = n - 1;
-	        int k = m + n - 1;
-	        // when B is all merged into A, job done
-	        while (j >= 0) {
-	            // merge
-	            if (i < 0 || B[j] > A[i]) {
-	                // when A is done or A is less than B, choose B
-	                A[k] = B[j];
-	                j--;
-	            } else {
-	                A[k] = A[i];
-	                i--;
-	            }
-	            k--;
-	        }         
-	    }
-	 
-	 };

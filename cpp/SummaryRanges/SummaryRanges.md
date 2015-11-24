@@ -46,6 +46,47 @@ __Code:__
 	    }
 	};
 
+__Code:__
+
+	class Solution {
+	public:
+	    vector summaryRanges(vector& nums) {
+	        int len = nums.size();
+	        vector result;
+	        if(len == 0){
+	            return result;
+	        }
+	        int left = nums[0];
+	        nums.push_back(nums[len-1]);
+	        len++;
+	        for(int i=1; i + to_string(nums[i-1]));
+	                }
+	                left = nums[i];
+	            }
+	        }
+	        return result;
+	    }
+	};
+
+使用 to_string 直接将数字转化成字符串，有哨兵;
+
+__Code:__
+
+	class Solution {
+	public:
+	    vector<string> summaryRanges(vector<int>& nums) {
+	        int len = nums.size();
+	        int i=0;
+	        vector<string> result;
+	        while(i<len){ -="" :="" int="" j="=1" len=""> + to_string(nums[i + j - 1]));
+	            i += j;
+	        }
+	        return result;
+	    }
+	};</len){></string></int></string>
+
+
+
 ###1 ostringstream
 
 istringstream, ostringstream, stringstream 类介绍：
@@ -81,3 +122,4 @@ istringstream, ostringstream, stringstream 类介绍：
 - `istringstream` 类用于执行 C++ 风格的字符串流的__输入__操作.
 - `ostringstream` 类用于执行 C++ 风格的字符串流的__输出__操作.
 - `stringstream` 类可以同时支持 C++ 风格的串流的__输入输出__操作.
+

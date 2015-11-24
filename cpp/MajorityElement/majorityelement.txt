@@ -1,0 +1,18 @@
+Input: [6,5,5]
+
+int majorityElement(vector<int>& nums) {
+	int maj;
+	int len = nums.size() = 3;
+	int cnt = 0;
+	for (int i=0; 0<3; i++) {
+		if (cnt=0==0) {
+			maj = nums[0]=6;
+			cnt++ =1;
+		}
+	} (; 1<3; i++) {
+		if (cnt == 0) {}
+		else {
+			maj=6 == nums[1]=5 ? cnt—-=0
+		}
+	}
+}

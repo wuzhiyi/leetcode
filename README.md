@@ -145,9 +145,9 @@ __Medium:__
 - 264 [Ugly Number II]()
 - 29 [Divide Two Integers]()
 - 166 [Fraction to Recurring Decimal]()
-- 50 [Pow(x, n)]()
+- 50 [Pow(x, n)](cpp/Powxn/Powxn.md)
 - 273 [Integer to English Words]()
-- 12 [Integer to Roman]()
+- 12 [Integer to Roman](cpp/IntegertoRoman/IntegertoRoman.md)
 - 60 [Permutation Sequence]()
 - 279 [Perfect Squares]()
 
@@ -300,7 +300,7 @@ __Medium:__
 
 __Easy:__
 
-- 232 [Implement Queue using Stacks]()
+- 232 [Implement Queue using Stacks](cpp/ImplementQueueusingStacks/ImplementQueueusingStacks.md)
 - 155 [Min Stack]()
 - 225 [Implement Stack using Queues]()
 - 20 [Valid Parentheses](cpp/ValidParentheses/ValidParentheses.md) `back` `pop_back` `push_back`
@@ -327,7 +327,7 @@ __Medium:__
 
 __Medium:__
 
-- 55 [Jump Game]()
+- 55 [Jump Game](cpp/JumpGame/JumpGame.md)
 - 134 [Gas Station]()
 - 122 [Best Time to Buy and Sell Stock II]()
 
