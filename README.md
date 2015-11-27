@@ -381,7 +381,7 @@ __Easy:__
 - 112 [Path Sum]()
 - 101 [Symmetric Tree]()
 - 235 [Lowest Common Ancestor of a Binary Search Tree]()
-- 104 [Maximum Depth of Binary Tree]()
+- 104 [Maximum Depth of Binary Tree](cpp/MaximumDepthofBinaryTree/MaximumDepthofBinaryTree.md)
 - 257 [Binary Tree Paths]()
 - 111 [Minimum Depth of Binary Tree]()
 - 226 [Invert Binary Tree]()
@@ -396,18 +396,25 @@ __Medium:__
 - 230 [Kth Smallest Element in a BST]()
 - 199 [Binary Tree Right Side View]()
 - 98 [Validate Binary Search Tree]()
-- 222 [Count Complete Tree Nodes]()
-- 108 [Convert Sorted Array to Binary Search Tree]()
+- 222 [Count Complete Tree Nodes](cpp/CountCompleteTreeNodes/CountCompleteTreeNodes.md)
+- 108 [Convert Sorted Array to Binary Search Tree](cpp/ConvertSortedArraytoBinarySearchTree/ConvertSortedArraytoBinarySearchTree.md)
 - 105 [Construct Binary Tree from Preorder and Inorder Traversal]()
 - 106 [Construct Binary Tree from Inorder and Postorder Traversal]()
-- 129 [Sum Root to Leaf Numbers]()
+- 129 [Sum Root to Leaf Numbers](cpp/SumRoottoLeafNumbers/SumRoottoLeafNumbers.md)
 - 103 [Binary Tree Zigzag Level Order Traversal]()
-- 114 [Flatten Binary Tree to Linked List]()
+- 114 [Flatten Binary Tree to Linked List](cpp/FlattenBinaryTreetoLinkedList/FlattenBinaryTreetoLinkedList.md)
 - 297 [Serialize and Deserialize Binary Tree]()
 - 94 [Binary Tree Inorder Traversal]()
 - 116 [Populating Next Right Pointers in Each Node]()
 - 96 [Unique Binary Search Trees]()
 - 117 [Populating Next Right Pointers in Each Node II]()
+
+__Hard:__
+
+- 145 [Binary Tree Postorder Traversal]()
+- 124 [Binary Tree Maximum Path Sum]()
+- 99 [Recover Binary Search Tree](cpp/RecoverBinarySearchTree/RecoverBinarySearchTree.md)
+
 
 ##Depth-first Search
 
@@ -418,7 +425,7 @@ __Easy:__
 - 257 [Binary Tree Paths]()
 - 112 [Path Sum]()
 - 101 [Symmetric Tree]()
-- 104 [Maximum Depth of Binary Tree]()
+- 104 [Maximum Depth of Binary Tree](cpp/MaximumDepthofBinaryTree/MaximumDepthofBinaryTree.md)
 - 111 [Minimum Depth of Binary Tree]()
 
 __Medium:__

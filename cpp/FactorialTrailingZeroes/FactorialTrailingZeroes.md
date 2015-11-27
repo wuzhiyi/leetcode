@@ -78,7 +78,7 @@ __Code:__
 	        }
 
 	        /* 计算因子5的个数(因为因子2的个数一定大于因子5的个数)
-	        int trailingZeroes(int n) {
+	        int trailingZeroes3(int n) {
 	        	int res = 0;
 	        	while(n) {
 	        		res += n/5;
