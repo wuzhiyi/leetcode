@@ -11,10 +11,9 @@ __Code:__
 	    bool isPowerOfTwo1(int n) {
 	        int cnt = 0; //num of bits 1
 	        for(; n>0; n>>=1){
-	        	//找到1位
+	        	//找到1
 	            if ( n & 1 ) {
 	                cnt++;
-	                //若不是唯一1，返回false
 	                if (cnt>1) return false;
 	            }
 	        }

@@ -39,7 +39,7 @@ __Medium__:
 - 216 [Combination Sum III]()
 - 31 [Next Permutation]()
 - 39 [Combination Sum]()
-- 268 [Missing Number]()
+- 268 [Missing Number](cpp/MissingNumber/MissingNumber.md)
 - 16 [3Sum Closest]()
 - 64 [Minimum Path Sum]()
 - 106 [Construct Binary Tree from Inorder and Postorder Traversal]()
@@ -101,18 +101,24 @@ __Easy:__
 
 __Medium:__
 
-- 147 [Insetion Sort List]()
+- 147 [Insetion Sort List](cpp/InsertionSortList/InsertionSortList.md)
 - 142 [Linked List Cycle II]()
 - 82 [Remove Duplicates from Sorted List II]()
-- 148 [Sort List]()
+- 148 [Sort List](cpp/SortList/SortList.md)
 - 141 [Linked List Cycle]()
-- 24 [Swap Nodes in Paris]()
-- 2 [Add Two Numbers]()
-- 86 [Partition List]()
+- 24 [Swap Nodes in Paris](cpp/SwapNodesinPairs/SwapNodesinPairs.md)
+- 2 [Add Two Numbers](cpp/AddTwoNumbers/AddTwoNumbers.md)
+- 86 [Partition List](cpp/PartitionList/PartitionList.md)
 - 109 [Convert Sorted List to Binary Search Tree]()
 - 92 [Reverse Linked List II]()
-- 143 [Reorder List]()
-- 61 [Rotate List]()
+- 143 [Reorder List](cpp/ReorderList/ReorderList.md)
+- 61 [Rotate List](cpp/RotateList/RotateList.md)
+
+__Hard:__
+
+- 138 [Copy List with Random Pointer]()
+- 23 [Merge k Sorted Lists]()
+- 25 [Reverse Nodes in k-Group]()
 
 ##Math
 
@@ -136,12 +142,12 @@ __Easy:__
 
 __Medium:__
 
-- 2 [Add Two Numbers]()
-- 268 [Missing Number]()
+- 2 [Add Two Numbers](cpp/AddTwoNumbers/AddTwoNumbers.md)
+- 268 [Missing Number](cpp/MissingNumber/MissingNumber.md)
 - 43 [Multiply Strings]()
-- 233 [Number of Digit One]()
+- 233 [Number of Digit One](cpp/NumberofDigitOne/NumberofDigitOne.md)
 - 224 [Basic Calculator]()
-- 69 [Sqrt(x)]()
+- 69 [Sqrt(x)](cpp/Sqrtx/Sqrtx.md)
 - 264 [Ugly Number II]()
 - 29 [Divide Two Integers]()
 - 166 [Fraction to Recurring Decimal]()
@@ -161,14 +167,14 @@ __Easy:__
 - 26 [Remove Duplicates from Sorted Array](cpp/RemoveDuplicatesfromSortedArray/RemoveDuplicatesfromSortedArray.md)
 - 234 [Palindrome Linked List](cpp/PalindromeLinkedList/PalindromeLinkedList.md)
 - 88 [Merge Sorted Array](cpp/MergeSortedArray/MergeSortedArray.md)
-- 28 [Implement strStr()]()
+- 28 [Implement strStr()](cpp/ImplementstrStr/ImplementstrStr.md)
 - 283 [Move Zeroes](cpp/MoveZeroes/MoveZeroes.md)
 
 __Medium:__
 
 - 18 [4Sum]()
 - 80 [Remove Duplicates from Sorted Array II]()
-- 86 [Partition List]()
+- 86 [Partition List](cpp/PartitionList/PartitionList.md)
 - 11 [Container With Most Water]()
 - 16 [3Sum Closest]()
 - 209 [Minimum Size Subarray Sum]()
@@ -176,7 +182,7 @@ __Medium:__
 - 3 [Longest Substring Without Repeating Characters]()
 - 75 [Sort Colors]()
 - 141 [Linked List Cycle]()
-- 61 [Rotate List]()
+- 61 [Rotate List](cpp/RotateList/RotateList.md)
 - 15 [3Sum]()
 
 ##String
@@ -186,14 +192,14 @@ __Easy:__
 - 14 [Longest Common Prefix](cpp/LongestCommonPrefix/LongestCommonPrefix.md)
 - 67 [Add Binary](cpp/AddBinary/AddBinary.md)
 - 20 [Valid Parentheses](cpp/ValidParentheses/ValidParentheses.md) `back` `pop_back` `push_back`
-- 165 [Compare Version Numbers]()
-- 38 [Count and Say]()
-- 58 [Length of Last Word]()
-- 6 [ZiaZag Conversion]()
+- 165 [Compare Version Numbers](cpp/CompareVersionNumbers/CompareVersionNumbers.md)
+- 38 [Count and Say](cpp/CountandSay/CountandSay.md)
+- 58 [Length of Last Word](cpp/LengthofLastWord/LengthofLastWord.md)
+- 6 [ZigZag Conversion](cpp/ZigZagConversion/ZigZagConvertion.md)
 - 125 [Valid Palindrome](cpp/ValidPalindrome/ValidPalindrome.md)
 - 8 [String to Integer (atoi)](cpp/StringtoIntegeratoi/StringtoIntegeratoi.md)
 - 13 [Roman to Integer](cpp/RomantoInteger/RomantoInteger.md)
-- 28 [Implement strStr()]()
+- 28 [Implement strStr()](cpp/ImplementstrStr/ImplementstrStr.md)
 
 __Medium:__
 
@@ -219,7 +225,7 @@ __Easy:__
 
 __Medium:__
 
-- 69 [Sqrt(x)]()
+- 69 [Sqrt(x)](cpp/Sqrtx/Sqrtx.md)
 - 29 [Divide Two Integers]()
 - 34 [Search for a Range]()
 - 81 [Search in Rotated Sorted Array II]()
@@ -302,7 +308,7 @@ __Easy:__
 
 - 232 [Implement Queue using Stacks](cpp/ImplementQueueusingStacks/ImplementQueueusingStacks.md)
 - 155 [Min Stack]()
-- 225 [Implement Stack using Queues]()
+- 225 [Implement Stack using Queues](cpp/ImplementStackusingQueues/ImplementStacksusingQueues.md)
 - 20 [Valid Parentheses](cpp/ValidParentheses/ValidParentheses.md) `back` `pop_back` `push_back`
 
 __Medium:__
@@ -339,9 +345,9 @@ __Easy:__
 
 __Medium:__
 
-- 148 [Sort List]()
+- 148 [Sort List](cpp/SortList/SortList.md)
 - 274 [H-Index]()
-- 147 [Insertion Sort List]()
+- 147 [Insertion Sort List](cpp/InsertionSortList/InsertionSortList.md)
 - 75 [Sort Colors]()
 - 179 [Largest Number]()
 
@@ -356,7 +362,7 @@ __Easy:__
 
 __Medium:__
 
-- 268 [Missing Number]()
+- 268 [Missing Number](cpp/MissingNumber/MissingNumber.md)
 - 78 [Subsets]()
 - 201 [Bitwiwe AND of Numbers Range]()
 - 187 [Repeated DNA Sequences]()
@@ -491,8 +497,8 @@ __Medium:__
 __Easy:__
 
 - 155 [Min Stack]()
-- 225 [Implement Stack using Queues]()
-- 232 [Implement Queue using Stacks]()
+- 225 [Implement Stack using Queues](cpp/ImplementStackusingQueues/ImplementStackusingQueues.md)
+- 232 [Implement Queue using Stacks](cpp/ImplementQueueusingStacks/ImplementQueueusingStacks.md)
 
 __Medium:__
 

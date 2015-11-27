@@ -93,4 +93,32 @@ __Code:__
 			free(next);
 			return -1;
 		}
+
+		/* 网上公认比较好的解法
+		 */
+		public int strStr(String haystack, String needle) {
+			// 从heystack开始
+			for (int i = 0;; i++) {
+				// 匹配needle的字符
+				for (int j = 0;; j++) {
+					/* 如果needle和j一样长，则直接返回i(当前匹配的起始位置)
+					 * ，因为已经匹配成功了
+					 */
+					if (j == needle.length())
+						return i;
+					/* 如果i+j为当前haystack的长度，则表明已经走完heystack
+					 * 所有的字符，并且没有匹配成功(注意如果最后一个字符正好匹
+					 * 配成功，则在上面一个判断就会返回)
+					 */
+					if (i + j == haystack.length())
+						return -1;
+					/* 如果当前needle和haystack的字符相同的话(因为每次不成功
+					 * 匹配不成功，则i移动1位，而j又重新从0开始，所以haystack
+					 * 的当前位置是i+j)
+					 */
+					if (needle.charAt(j) != haystack.charAt(i + j))
+						break;
+				}
+			}
+}
 	};

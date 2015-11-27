@@ -27,7 +27,7 @@ __Code:__
 	            y = getValueAndMoveNext(l2);
 	            
 	            sum = carry + x + y;
-	            
+	            //新建结点
 	            ListNode *node = new ListNode(sum%10);
 	            *t = node;
 	            t = (&node->next);

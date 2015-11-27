@@ -36,10 +36,4 @@ __Code:__
 	        }
 	        return result;
 	    }
-	    
-	    int missingNumber(vector<int>& nums) {
-	        //By Leetcode running result, they all are same performance
-	        return missingNumber02(nums); //36ms
-	        return missingNumber01(nums); //36ms
-	    }
 	};

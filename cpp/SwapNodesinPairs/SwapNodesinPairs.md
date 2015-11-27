@@ -27,12 +27,6 @@ __Code:__
 	     * 1) keep the list's nodes no change. only swap the data in the list node.
 	     * 2) swap the list node physically.
 	     */
-	    ListNode *swapPairs(ListNode *head) {
-	        if(random()%2){
-	            return swapPairs1(head);
-	        }
-	        return swapPairs2(head);
-	    }
 	    /*just swap the node's value instead of node*/
 	    ListNode *swapPairs1(ListNode *head) {
 	        for (ListNode *p = head; p && p->next; p = p->next->next) {
