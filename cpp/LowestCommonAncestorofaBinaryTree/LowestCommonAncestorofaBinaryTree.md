@@ -78,12 +78,4 @@ __Code:__
 	        // left!=NULL && right !=NULL, which means `p` & `q` are seperated in left and right tree.
 	        return root;
 	    }
-	    
-	    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-	        srand(time(0));
-	        if (random()%2) {
-	            return lowestCommonAncestor02(root, p, q);
-	        }
-	        return lowestCommonAncestor01(root, p, q);
-	    }
 	};

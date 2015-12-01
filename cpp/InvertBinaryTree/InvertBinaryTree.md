@@ -51,11 +51,4 @@ __Code:__
 	        }
 	        return root;
 	    }
-	    
-	    TreeNode* invertTree(TreeNode* root) {
-	        if (rand()%2){
-	            return invertTree_non_recursive(root);
-	        }
-	        return invertTree_recursive(root);    
-	    }
 	};

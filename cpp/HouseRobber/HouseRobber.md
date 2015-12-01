@@ -56,34 +56,52 @@ __Code:__
 	    return n1;
 	}
 
-	int rob(vector<int> &num) {
-	    if (rand()%2)
-	        return rob1(num);
-	    return rob2(num);
-	}
+####状态压缩
 
-	void printVector( vector<int> &v ){
-	    cout << '[' ;
-	    for(int i=0; i<v.size(); i++){
-	        cout << v[i] << (i==v.size()-1 ? " " :", ");
+这道理可以看做是状态压缩，每两个数字看做是一行，状态有3个，故需要F[N][3]的数组，F[i][j]就表示第i行状态j时rob的money。相关链接：</br>
+[状态压缩一－铺地砖](http://blog.csdn.net/lu597203933/article/details/44137277)</br>
+[状态压缩二－捡垃圾](http://blog.csdn.net/lu597203933/article/details/44137867)
+
+__Code:__
+
+	#include <iostream>
+	#include <algorithm>
+	#include <vector>
+	using namespace std;
+
+	#define N 10000
+
+	class Solution {
+	public:
+		Solution(){
+			memset(F, 0, sizeof(int)*N*3);
+		}
+	    int rob(vector<int> &num) {
+			if(num.size() == 0) return 0;
+			else if(num.size() == 1) return num[0];
+			else{
+				// 初始化第一行
+				F[0][0] = 0;
+				F[0][1] = num[1];
+				F[0][2] = num[0];
+				int maxMoney = max(num[1], num[0]);
+				for(int i = 1; i < num.size()-1; i++){
+					for(int j = 0; j < 3; j++){     
+						int t = j >> 1;
+						for(int k = 0; k < 3; k++){
+							if( t ==  (k & (1>>0))){      // 判断第i行状态j与第i-1行各个状态是否兼容 即j的倒数第二位与k的倒数第一位是否相同
+								F[i][j] = max(F[i-1][k], F[i][j]);	//  输出兼容的最大者
+							}
+						}
+						if((j & (1<<0)) == 1) F[i][j] = F[i][j] + num[i+1];  // 如果状态j最后一位为1则 需要加上该方案数
+						if(F[i][j] > maxMoney){                // 求最大的方案数
+							maxMoney = F[i][j];
+						}
+					}
+				}
+				return maxMoney;
+			}
 	    }
-	    cout << ']' << endl;
-	}
-
-	int main(int argc, char** argv) {
-	    srand(time(0));
-	    vector<int> money;
-	    if (argc>1){
-	        for (int i=1; i<argc; i++) {
-	            money.push_back(atoi(argv[i]));
-	        }
-	    }else{
-	        money.push_back(2);
-	        money.push_back(1);
-	        money.push_back(3);
-	        money.push_back(4);
-	    }
-
-	    printVector(money);
-	    cout << rob(money) << endl;
-	}
+	private:
+		int F[N][3];
+	};

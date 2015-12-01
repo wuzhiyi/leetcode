@@ -20,15 +20,15 @@ __Easy:__
 
 __Medium__:
 
-- 63 [Unique Paths II]()
-- 209 [Minimum Size Subarray Sum]()
-- 15 [3Sum]()
-- 73 [Set Matrix Zeroes]()
-- 35 [Search Insert Position]()
+- 63 [Unique Paths II](cpp/UniquePathsII/UniquePathsII.md)
+- 209 [Minimum Size Subarray Sum](cpp/MinimumSizeSubarraySum/MinimumSizeSubarraySum.md)
+- 15 [3Sum](cpp/3Sum/3Sum.md)
+- 73 [Set Matrix Zeroes](cpp/SetMatrixZeroes/SetMatrixZeroes.md)
+- 35 [Search Insert Position](cpp/SearchInsertPosition/SearchInsertPosition.md)
 - 81 [Search in Rotated Sorted Array II]()
-- 34 [Search for a Range]()
+- 34 [Search for a Range](cpp/SearchforaRange/SearchforaRange.md)
 - 74 [Search a 2D Matrix]()
-- 48 [Rotate Image]()
+- 48 [Rotate Image](cpp/RotateImage/RotateImage.md)
 - 18 [4Sum]()
 - 122 [Best Time to Buy and Sell Stock II]()
 - 62 [Unique Paths]()
@@ -82,7 +82,7 @@ __Medium:__
 - 3 [Longest Substring Without Repeating Characters]()
 - 94 [Binary Tree Inorder Traversal]()
 - 166 [Fraction to Recurring Decimal]()
-- 136 [Single Number]()
+- 136 [Single Number](cpp/SingleNumber/SingleNumber.md)
 - 187 [Repeated DNA Sequences]()
 - 274 [H-Index]()
 
@@ -177,13 +177,13 @@ __Medium:__
 - 86 [Partition List](cpp/PartitionList/PartitionList.md)
 - 11 [Container With Most Water]()
 - 16 [3Sum Closest]()
-- 209 [Minimum Size Subarray Sum]()
+- 209 [Minimum Size Subarray Sum](cpp/MinimumSizeSubarraySum/MinimumSizeSubarraySum.md)
 - 142 [Linked List Cycle II]()
 - 3 [Longest Substring Without Repeating Characters]()
 - 75 [Sort Colors]()
 - 141 [Linked List Cycle]()
 - 61 [Rotate List](cpp/RotateList/RotateList.md)
-- 15 [3Sum]()
+- 15 [3Sum](cpp/3Sum/3Sum.md)
 
 ##String
 
@@ -227,13 +227,13 @@ __Medium:__
 
 - 69 [Sqrt(x)](cpp/Sqrtx/Sqrtx.md)
 - 29 [Divide Two Integers]()
-- 34 [Search for a Range]()
+- 34 [Search for a Range](cpp/SearchforaRange/SearchforaRange.md)
 - 81 [Search in Rotated Sorted Array II]()
 - 300 [Longest Increasing Subsequence]()
 - 74 [Search a 2D Matrix]()
 - 240 [Search a 2D Matrix II]()
 - 50 [Pow(x, n)]()
-- 209 [Minimum Size Subarray Sum]()
+- 209 [Minimum Size Subarray Sum](cpp/MinimumSizeSubarraySum/MinimumSizeSubarraySum.md)
 - 35 [Search Insert Position]()
 - 153 [Find Minimum in Rotated Sorted Array]()
 - 230 [Kth Smallest Element in a BST]()
@@ -260,13 +260,13 @@ __Easy:__
 
 - 303 [Range Sum Query - Immutable]()
 - 70 [Climbing Stairs](cpp/ClimbingStairs/ClimbingStairs.md)
-- 198 [House Robber]()
+- 198 [House Robber](cpp/HouseRobber/HouseRobber.md)
 
 __Medium:__
 
 - 304 [Range Sum Query 2D - Immutable]()
 - 64 [Minimum Path Sum]()
-- 63 [Unique Paths II]()
+- 63 [Unique Paths II](cpp/UniquePathsII/UniquePathsII.md)
 - 96 [Unique Binary Search Trees]()
 - 95 [Unique Binary Search Trees II]()
 - 213 [House Robber II]()
@@ -366,9 +366,9 @@ __Medium:__
 - 78 [Subsets]()
 - 201 [Bitwiwe AND of Numbers Range]()
 - 187 [Repeated DNA Sequences]()
-- 260 [Single Number III]()
+- 260 [Single Number III](cpp/SingleNumberIII/SingleNumberIII.md)
 - 137 [Single Number II]()
-- 136 [Single Number]()
+- 136 [Single Number](cpp/SingleNumber/SingleNumber.md)
 
 ##Tree
 

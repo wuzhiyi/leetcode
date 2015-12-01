@@ -13,14 +13,6 @@ __Code:__
 	class Solution {
 	public:
 	    Solution(){
-	        srand(time(NULL));
-	    }
-	    void setZeroes(vector<vector<int> > &matrix) {
-	        if(random()%2){
-	            setZeroes1(matrix);
-	        }
-	        setZeroes2(matrix);
-	    }
 	    
 	    void setZeroes1(vector<vector<int> > &matrix) {
 	        

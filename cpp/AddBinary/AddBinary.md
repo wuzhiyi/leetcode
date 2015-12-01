@@ -20,8 +20,8 @@ __Code:__
 	    string result;
 	    while( alen>0 || blen>0) {
 	    	//若alen<=0,abit=0;否则,abit=a[alen-1]-'0'
-	        int abit = (alen<=0 ? 0 : a[alen-1]-'0';)
-	        int bbit = (blen<=0 ? 0 : b[blen-1]-'0';)
+	        int abit = alen<=0 ? 0 : a[alen-1]-'0';
+	        int bbit = blen<=0 ? 0 : b[blen-1]-'0';
 	        int cbit = carry ? 1 : 0;
 	        result.insert(result.begin(), '0' + ((abit+bbit+cbit) & 1));	//2,3
 	        carry = (abit+bbit+cbit>1);
