@@ -15,11 +15,6 @@ Write the code that will take a string and make this conversion given a number o
 
 __Code:__
 
-	#include <iostream>
-	#include <vector>
-	#include <string>
-	using namespace std;
-
 	string convert(string s, int nRows) {
 	    //The cases no need to do anything
 	    if (nRows<=1 || nRows>=s.size()) return s;
@@ -40,15 +35,4 @@ __Code:__
 	        result += r[i];
 	    }
 	    return result;
-	}
-
-	int main(int argc, char**argv){
-
-	    string s;
-	    int r;
-
-	    s = "PAYPALISHIRING";
-	    r = 3;
-	    cout << s << " : " << convert(s, 3) << endl;
-
 	}

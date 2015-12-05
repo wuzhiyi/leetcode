@@ -17,11 +17,6 @@ word = `"ABCB"`, -> returns `false`.
 
 __Code:__
 
-	#include <iostream>
-	#include <vector>
-	#include <string>
-	using namespace std;
-
 	//Recursive backtracking algorithm
 	bool exist(vector<vector<char> > &board, string word, int idx, int row, int col, vector< vector<int> > &mask) {
 	    int i = row;
@@ -38,7 +33,8 @@ __Code:__
 	        {
 	             return true;
 	        }
-	        mask[i][j]=0; //cannot find any successful solution, clear the mark. (backtracking)
+	        //cannot find any successful solution, clear the mark. (backtracking)
+	        mask[i][j]=0; 
 	    }
 
 	    return false;
@@ -74,50 +70,4 @@ __Code:__
 	    }
 	    cout << "----------" << endl;    
 	    return board;
-	}
-
-	int main(int argc, char** argv)
-	{
-	    string s;
-	    char b[3][5] ={ "ABCE", "SFCS", "ADEE" };
-	    vector< vector<char> > board = buildBoard(b, 3, 4);
-
-	    s = "SEE";
-	    cout << s << ":" << exist(board, s) << endl; 
-	    
-	    s = "ABCCED";
-	    cout << s << ":" << exist(board, s) << endl; 
-	    
-	    s = "ABCB";
-	    cout << s << ":" << exist(board, s) << endl; 
-
-
-	    if (argc>1){
-	        s = argv[1];
-	        cout << s << ":" << exist(board, s) << endl; 
-	    }
-
-	    cout << endl << "----------" << endl;    
-	    char b1[3][5] ={ "CAA", "AAA", "BCD" };
-	    board = buildBoard(b1, 3, 3);
-
-	    s = "AAB";
-	    cout << s << ":" << exist(board, s) << endl; 
-
-
-	    cout << endl << "----------" << endl;    
-	    char b2[3][5] ={ "ABCE", "SFES", "ADEE" };
-	    board = buildBoard(b2, 3, 4);
-
-	    s = "ABCESEEEFS";
-	    cout << s << ":" << exist(board, s) << endl; 
-
-	    cout << endl << "----------" << endl;    
-	    char b3[3][5] ={ "aaaa", "aaaa", "aaaa" };
-	    board = buildBoard(b3, 3, 4);
-
-	    s = "aaaaaaaaaaaaa";
-	    cout << s << ":" << exist(board, s) << endl; 
-
-	    return 0;
 	}

@@ -5,12 +5,8 @@ Given preorder and inorder traversal of a tree, construct the binary tree.
 ####Note:
 You may assume that duplicates do not exist in the tree.
 
+####解法1
 __Code:__
-
-	#include <stdio.h>
-	#include <vector>
-	#include <queue>
-	using namespace std;
 
 	struct TreeNode {
 	    int val;
@@ -66,64 +62,43 @@ __Code:__
 	    return root;
 	}
 
-	void printTree_pre_order(TreeNode *root)
-	{
-	    if (root == NULL){
-	        printf("# ");
-	        return;
+####解法2
+
+	class Solution {
+	public:
+	    TreeNode *buildTree(vector<int> &preorder, vector<int> &inorder) {
+	        // Start typing your C/C++ solution below
+	        // DO NOT write int main() function
+	        if (preorder.size() <= 0)
+	            return NULL;
+	            
+	        if (preorder.size() != inorder.size())
+	            return NULL;
+	            
+	        TreeNode* root = new TreeNode(0);
+	        root = buildTree(preorder, 0, preorder.size()-1, inorder,0, preorder.size()-1);
+	        
+	        return root;
 	    }
-	    printf("%c ", root->val );
-
-	    printTree_pre_order(root->left);
-	    printTree_pre_order(root->right);
-	}
-
-	void printTree_in_order(TreeNode *root)
-	{
-	    if (root == NULL){
-	        printf("# ");
-	        return;
-	    }
-
-	    printTree_in_order(root->left);
-	    printf("%c ", root->val );
-	    printTree_in_order(root->right);
-	}
-
-
-	void printTree_level_order(TreeNode *root)
-	{
-	    queue<TreeNode*> q;
-	    q.push(root);
-	    while (q.size()>0){
-	        TreeNode* n = q.front();
-	        q.pop();
-	        if (n==NULL){
-	            printf("# ");
-	            continue;
-	        }
-	        printf("%c ", n->val);
-	        q.push(n->left);
-	        q.push(n->right);
-	    }
-	    printf("\n");
-	}
-
-
-	int main()
-	{
-	    int pre_order[]={'F', 'B', 'A', 'D', 'C', 'E', 'G', 'I', 'H'};
-	    int  in_order[]={'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'};
-	    vector<int> preorder( pre_order, pre_order + 9 );
-	    vector<int>  inorder(  in_order,  in_order + 9 );
-
-	    TreeNode* tree = buildTree(preorder, inorder);
-
-	    printTree_level_order(tree);
-	    printTree_pre_order(tree);
-	    printf("\n");
-	    printTree_in_order(tree);
-	    printf("\n");
 	    
-	    return 0;
-	}
+	    
+	    TreeNode* buildTree(vector<int> &preorder, int preStart, int preEnd, vector<int> &inorder, int inStart, int inEnd){
+	        if (preEnd < preStart )
+	            return NULL;
+	            
+	        TreeNode* root = new TreeNode(0);
+	        root->val = preorder.at(preStart);
+	        if (preEnd== preStart)    
+	    		return root;
+	            
+	        int i;
+	        for(i = 0; i < inorder.size(); i++){
+	            if (inorder.at(inStart+i) == root->val)
+	                break;
+	        }
+	        
+	        root->left  = buildTree(preorder, preStart+1, preStart+i,inorder,inStart, inStart + i-1);
+	        root->right = buildTree(preorder, preStart+1+i, preEnd,inorder,inStart+ i+1, inEnd);
+	        return root;
+	    }
+	};

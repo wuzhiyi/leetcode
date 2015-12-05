@@ -11,11 +11,20 @@ __My Note:__
 1. 目标 = 矩形A面积 + 矩形B面积 - 重叠部分面积
 2. 目标 = 新的大矩形C - 与矩形AB的差集
 
-
 __Code:__
 
-	#include <iostream>
-	using namespace std;
+	class Solution {
+	public:
+	    int computeArea(int A, int B, int C, int D, int E, int F, int G, int H) {
+	        int result = (D-B)*(C-A) + (H-F)*(G-E);
+	        int A1=max(A,E), B1=max(B,F), C1=min(C,G), D1=min(D, H);
+	        if (D1<=B1 || C1<=A1) return result;
+	        return result - (D1-B1)*(C1-A1);
+	    }
+	};
+
+
+__Code:__
 
 	//自定义namespace
 	namespace leetcode 																				//1
@@ -61,35 +70,6 @@ __Code:__
 	            Point bottomRight;
 	    };
 	};
-
-
-	int computeArea(int A, int B, int C, int D, int E, int F, int G, int H) {
-		//导入namespace leetcode所有名称
-	    using namespace leetcode;
-	    Rectangle r1(A,B,C,D);
-	    Rectangle r2(E,F,G,H);
-	    int area = r1.InclusiveArea(r2);
-	    if (area > 0) return area;
-	    //两个矩形面积=矩形面积和-重叠部分面积
-	    return r1.Area() + r2.Area() - r1.OverlappedArea(r2);
-	}
-
-
-
-	int main() 
-	{
-	    //16
-	    cout << "16 : " << computeArea(-1, -1, 1, 1, -2, -2, 2, 2) << endl;
-	    //16
-	    cout << "16 : " << computeArea(-2, -2, 2, 2, -1, -1, 1, 1) << endl;
-	    //17
-	    cout << "17 : " << computeArea(-2, -2, 2, 2, -4, 3, -3, 4) << endl;
-	    //45
-	    cout << "45 : " << computeArea(-3, -0, 3, 4, 0, -1, 9, 2) << endl;
-	    //24
-	    cout << "24 : " << computeArea(-2, -2, 2, 2, -3, -3, 3, -1) << endl;
-	    return 0;
-	}
 
 ###1 namespace
 

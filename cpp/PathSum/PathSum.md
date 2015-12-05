@@ -29,15 +29,6 @@ __Code:__
 	 */
 	class Solution {
 	public:
-	    Solution(){
-	        srand(time(NULL));
-	    }
-	    bool hasPathSum(TreeNode *root, int sum) {
-	        if (random()%2){
-	            return hasPathSum1(root, sum);    
-	        }
-	        return hasPathSum2(root, sum);
-	    }
 	    
 	    bool hasPathSum1(TreeNode *root, int sum) {
 	        if (root==NULL) return false;

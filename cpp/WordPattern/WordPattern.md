@@ -12,15 +12,43 @@ __Examples:__
 __Notes:__
 You may assume `pattern` contains only lowercase letters, and `str` contains lowercase letters separated by a single space.
 
+####解法1
+
+	class Solution {
+	public:
+	    bool wordPattern(string pattern, string str) {
+	        unordered_map<char, string> map1;
+	        unordered_map<string, char> map2;
+	        vector<string> vec;
+	        //标记起始位置
+	        int count = 0;
+	        //根据' '拆分str，逐个赋值到容器vec中
+	        for (int i=0; i<str.size(); i++) {
+	            if (str[i] == ' ') {
+	                string tmp = str.substr(count, i-count);
+	                vec.push_back(tmp);
+	                count = i+1;
+	            }
+	            if (i==str.size() - 1) {
+	                string tmp = str.substr(count, i-count+1);
+	                vec.push_back(tmp);
+	            }
+	        }
+	        if (pattern.size() != vec.size()) return false;
+	        //两个map交叉映射
+	        for (int j=0; j<pattern.size(); j++) {
+	            if (map1.find(pattern[j])==map1.end() && map2.find(vec[j])==map2.end()) {
+	                map1.insert(make_pair(pattern[j], vec[j]));
+	                map2.insert(make_pair(vec[j], pattern[j]));
+	            } else if (map1[pattern[j]]!=vec[j] || map2[vec[j]]!=pattern[j]) {
+	                return false;
+	            }
+	        }
+	        return true;
+	    }
+	};
+
 __Code:__
-
-	#include <stdlib.h>
-	#include <vector>
-	#include <iostream>
-	#include <unordered_map>
-	#include <sstream>
-
-	using namespace std;
 
 	class Solution {
 	private:
@@ -68,19 +96,3 @@ __Code:__
 	        return true;
 	    }
 	};
-
-	int main(int argc, char** argv) {
-		//输入pattern和string
-	    string str1 = "abba";
-	    string str2 = "dog cat cat dog";
-	    //初始化一个Solution变量
-	    Solution sol;
-	    //验证，打印结果
-	    if (sol.wordPattern(str1, str2)) {
-	        cout << "True" << endl;
-	    } else {
-	        cout << "False" << endl;
-	    }
-	    
-	    return 0;
-	}

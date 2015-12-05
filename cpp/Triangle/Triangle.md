@@ -17,10 +17,6 @@ Bonus point if you are able to do this using only O(_n_) extra space, where n is
 
 __Code:__
 
-	#include <iostream>
-	#include <vector>
-	using namespace std;
-
 	class Solution {
 	    
 	public:
@@ -28,14 +24,13 @@ __Code:__
 	        vector< vector<int> > v;
 	        
 	        for (int i=0; i<triangle.size(); i++){
-	            
+	            //最顶端
 	            if(i==0){
 	                v.push_back(triangle[i]);
 	                continue;
 	            }
 	            
 	            vector<int> tmp;
-	            
 	            
 	            for(int j=0; j<triangle[i].size(); j++){
 	                int x, y, z;
@@ -74,45 +69,3 @@ __Code:__
 	        return (n<z?n:z);
 	    }
 	};
-
-
-	int main()
-	{
-	    vector< vector<int> > v;
-	    vector<int> i;
-	    i.push_back(-1);
-	    v.push_back(i);
-	    
-	    i.clear();
-	    i.push_back(2);
-	    i.push_back(3);
-	    v.push_back(i);
-
-	    i.clear();
-	    i.push_back(1);
-	    i.push_back(-1);
-	    i.push_back(-3);
-	    v.push_back(i);
-
-	    Solution s;
-	    cout << s.minimumTotal(v) << endl;;
-	    
-	    v.clear();
-	    i.clear();
-	    i.push_back(-1);
-	    v.push_back(i);
-	    
-	    i.clear();
-	    i.push_back(3);
-	    i.push_back(2);
-	    v.push_back(i);
-
-	    i.clear();
-	    i.push_back(-3);
-	    i.push_back(1);
-	    i.push_back(-1);
-	    v.push_back(i);
-	    cout << s.minimumTotal(v) << endl;;
-
-	    return 0;
-	}

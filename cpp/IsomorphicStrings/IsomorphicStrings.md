@@ -25,7 +25,7 @@ __Code:__
 	        //memset(mapt, 0, sizeof(mapt));
 	        
 	        for(int i=0; i<s.size(); i++){
-	        	//将s和t中的字符直接映射到maps和mapt中
+	        	//将s和t中的字符交叉映射到mapt和maps中
 	            if(maps[s[i]] == 0 && mapt[t[i]] == 0){
 	                maps[s[i]] = t[i];
 	                mapt[t[i]] = s[i];

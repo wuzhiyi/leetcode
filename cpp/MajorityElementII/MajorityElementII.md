@@ -21,7 +21,8 @@ __Code:__
 	            counts[item]++;
 	            if (counts[item] > n/3 ){
 	               result.push_back(item); 
-	               counts[item] = -n; // Tricky: make sure the item only can be put into result once.
+	               //Tricky: make sure the item only can be put into result once.
+	               counts[item] = -n; 
 	            } 
 	        }
 	        return result;
@@ -60,10 +61,5 @@ __Code:__
 	        if (cnt2 > nums.size()/3) result.push_back(majority2);
 	        return result;
 	        
-	    }
-	    
-	    vector<int> majorityElement(vector<int>& nums) {
-	        return majorityElement02(nums);
-	        return majorityElement01(nums);
 	    }
 	};

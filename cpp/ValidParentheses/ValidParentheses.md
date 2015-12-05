@@ -5,14 +5,6 @@ The brackets must close in the correct order, `"()"` and `"()[]{}"` are all vali
 
 __Code:__
 
-	/* 对以下代码我有点不解，就是在while结构中，char rch=stack.back()
-	 * 但是这个stack是空的，未被赋值
-	 */
-
-	#include <iostream>
-	#include <string>
-	using namespace std;
-
 	bool isValid(string s) {
 
 	    string stack;
@@ -41,16 +33,6 @@ __Code:__
 	        }
 	    }
 	    return (s.size()==0 && stack.size()==0 );
-	}
-
-	int main(int argc, char**argv)
-	{
-	    string s = "{{}{[]()}}";
-	    if (argc>1){
-	        s = argv[1];
-	    }
-	    cout << "str = \"" << (s) << "\"" << endl;
-	    cout << isValid(s) << endl;
 	}
 
 ###1 std::basic_string::back

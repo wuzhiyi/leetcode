@@ -51,21 +51,11 @@ __Code:__
 	 */
 	class Solution {
 	public:
-	    Solution(){
-	        srand(time(NULL));
-	    }
 
 	    bool isSymmetric(TreeNode *root) {
 	        if (root == NULL ) return true;
 	        return isSymmetric(root->left, root->right);
 	        
-	    }
-	    
-	    bool isSymmetric(TreeNode *p, TreeNode *q){
-	        if (random()%2){
-	           return isSymmetric1(p, q);
-	        }
-	        return isSymmetric2(p, q);
 	    }
 	    
 	    bool isSymmetric1(TreeNode *p, TreeNode *q){
@@ -98,10 +88,7 @@ __Code:__
 
 	            q1.push(p1->right);
 	            q2.push(p2->left);
-
 	        }
 	        return true;
-	        
-	    }
-	    
+	    } 
 	};

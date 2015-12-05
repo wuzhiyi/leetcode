@@ -22,13 +22,6 @@ __Code:__
 	    return x>y?x:y;
 	}
 
-	int maxSubArray(int A[], int n) {
-	    if (random()%2){
-	        return maxSubArray1(A, n);
-	    }
-	    return maxSubArray2(A, n);
-	}
-
 	int maxSubArray1(int A[], int n) {
 	    int *sum = new int[n];
 	    sum[0] = A[0];
@@ -52,13 +45,4 @@ __Code:__
 	        }
 	    }
 	    return m;
-	}
-
-	int main()
-	{
-	    srand(time(NULL));
-	    int a[]= {-2,1,-3,4,-1,2,1,-5,4};
-	    printf("%d\n", maxSubArray(a, sizeof(a)/sizeof(int)));
-	    printf("%d\n", maxSubArray(a, sizeof(a)/sizeof(int)));
-	    return 0;
 	}

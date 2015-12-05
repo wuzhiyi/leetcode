@@ -95,9 +95,10 @@ __Code:__
 		}
 
 		/* 网上公认比较好的解法
+		 * Java
 		 */
 		public int strStr(String haystack, String needle) {
-			// 从heystack开始
+			// 从haystack开始
 			for (int i = 0;; i++) {
 				// 匹配needle的字符
 				for (int j = 0;; j++) {
