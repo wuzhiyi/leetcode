@@ -67,3 +67,39 @@ __Code:__
 	        }
 
 	};
+
+####解法2
+
+	class Solution {
+	public:
+	    int compareVersion(string version1, string version2) {
+	        int ret = 0;
+	        char* ch1 = (char*) version1.c_str();
+	        char* ch2 = (char*) version2.c_str();
+	        while (ret==0 && (*ch1 != '\0' || *ch2 != '\0')) {
+	            long v1 = *ch1 == '\0' ? 0 : strtol(ch1, &ch1, 10);		//1
+	            long v2 = *ch2 == '\0' ? 0 : strtol(ch2, &ch2, 10);
+	            if (v1 > v2) {
+	                ret = 1;
+	            } else if (v1 < v2) {
+	                ret = -1;
+	            } else {
+	                if (*ch1 != '\0') ch1++;
+	                if (*ch2 != '\0') ch2++;
+	            }
+	        }
+	        return ret;
+	    }
+	};
+
+###strtol
+
+long int strtol(const char *nptr,char **endptr,int base);
+
+将参数 nptr 字符串根据参数 base 来转换成长整型数。base 指示进制数，如 10 表示是十进制。strtol 扫描会跳过前面的空格字符，直到遇到数字或正负符号开始，再遇到非数字或者字符串结束符 ”\0“ 结束转换，并将结果返回。
+
+endptr 是一个传出参数，函数返回时指向后面未被识别的第一个字符。例如 char *pos; strtol("123abc", &pos, 10);，strtol 返回 123，pos 指向字符串中的字母 a。如果字符串开头没有可识别的整数，例如 char *pos; strtol("ABCabc", &pos, 10);，则 strtol 返回 0，pos 指向字符串开头，可以据此判断这种出错的情况，而这是 atoi 处理不了的。
+
+###CString和String区别
+
+CString是以空字符null结束的字符数组。string类是标准库的类，并不是内置类型，标准库就像是我们自己定义的类差不多的，string类型对象没有标配'\0'结尾的。不过String可以实现自动转换。

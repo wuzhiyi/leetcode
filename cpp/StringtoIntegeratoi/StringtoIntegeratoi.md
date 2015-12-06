@@ -17,10 +17,6 @@ If no valid conversion could be performed, a zero value is returned. If the corr
 
 __Code:__
 
-	#include <stdio.h>
-	#include <stdlib.h>
-	#include <ctype.h>
-
 	//定义超出范围时的representable value
 	#define INT_MIN     (-2147483647 - 1)
 	#define INT_MAX      2147483647
@@ -60,22 +56,6 @@ __Code:__
 	    }
 	    //确定正负号
 	    return neg?-ret:ret;
-	}
-
-
-	int main()
-	{
-	    printf("\"%s\" = %d\n", "123", atoi("123"));
-	    printf("\"%s\" = %d\n", "   123", atoi("    123"));
-	    printf("\"%s\" = %d\n", "+123", atoi("+123"));
-	    printf("\"%s\" = %d\n", " -123", atoi(" -123"));
-	    printf("\"%s\" = %d\n", "123ABC", atoi("123ABC"));
-	    printf("\"%s\" = %d\n", " abc123ABC", atoi(" abc123ABC"));
-	    printf("\"%s\" = %d\n", "2147483647", atoi("2147483647"));
-	    printf("\"%s\" = %d\n", "-2147483648", atoi("-2147483648"));
-	    printf("\"%s\" = %d\n", "2147483648", atoi("2147483648"));
-	    printf("\"%s\" = %d\n", "-2147483649", atoi("-2147483649"));
-	    return 0;
 	}
 
 ###1 std::isspace
