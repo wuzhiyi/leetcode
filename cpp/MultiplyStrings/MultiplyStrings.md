@@ -6,10 +6,6 @@ Note: The numbers can be arbitrarily large and are non-negative.
 
 __Code:__
 
-	#include <iostream>
-	#include <string>
-	using namespace std;
-
 	string multiply(string& num, char ch){
 	    int n = ch - '0';
 	    string s;
@@ -64,17 +60,4 @@ __Code:__
 	    //check if it is zero
 	    if (result[0]=='0') return "0";
 	    return result;
-	}
-
-
-	int main(int argc, char**argv)
-	{
-	    string s1="20";
-	    string s2="25";
-	    if (argc>2){
-	        s1 = argv[1];
-	        s2 = argv[2];
-	    }
-	    cout << s1 << " * " << s2 << " = " << multiply(s1, s2) << endl;
-	    return 0;
 	}

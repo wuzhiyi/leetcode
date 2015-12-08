@@ -130,14 +130,4 @@ __Code:__
 	        }
 	        return false;
 	    }
-	    
-	    
-	    bool searchMatrix(vector<vector<int>>& matrix, int target) {
-	        
-	        return searchMatrix022(matrix, target); //840ms ??
-	        return searchMatrix021(matrix, target); //320ms
-	        return searchMatrix02(matrix, target); //340ms
-	        
-	        return searchMatrix01(matrix, target); // 840ms
-	    }
 	};

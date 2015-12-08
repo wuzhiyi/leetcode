@@ -87,9 +87,3 @@ __Code:__
 	        }
 	        return v.back();
 	    }
-	    
-	    int nthUglyNumber(int n) {
-	        return nthUglyNumber02(n); // 4ms-8ms
-	        return nthUglyNumber01(n); // 28ms
-	    }
-	};

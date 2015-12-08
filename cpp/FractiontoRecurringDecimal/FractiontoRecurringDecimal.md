@@ -12,14 +12,6 @@ For example,
 
 __Code:__
 
-	#include <stdlib.h>
-	#include <iostream>
-	#include <sstream>
-	#include <string>
-	#include <map>
-	using namespace std;
-
-
 	/*
 	 *  Be careful the following cases:
 	 *
@@ -83,40 +75,4 @@ __Code:__
 	    }
 
 	    return result;
-	}
-
-
-	void test(int num, int deno)
-	{
-	    cout << "numerator: " << num << "\tdenominator: " << deno << "\tresult: " << fractionToDecimal(num, deno) << endl;
-	}
-
-	int main(int argc, char** argv)
-	{
-	    test(1, 2);
-	    test(10, 2);
-	    test(100, 2);
-	    test(1, 3);
-	    test(100, 3);
-	    test(1, 6);
-	    test(100, 6);
-	    test(-1, 4);
-	    test(1, -3);
-	    test(-1, -6);
-	    test(25, 99);
-	    test(1, 7);
-	    test(10, 7);
-	    test(100, 7);
-	    test(1, 17);
-	    test(1, 1024);
-	    test( -2147483648, -1999);
-	    test(-1, -2147483648);
-
-
-	    if (argc > 2) {
-	        int num = atoi(argv[1]);
-	        int deno = atoi(argv[2]);
-	        test(num, deno);
-	    }
-	    return 0;
 	}

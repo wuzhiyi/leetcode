@@ -6,11 +6,6 @@ If it is overflow, return MAX_INT.
 
 __Code:__
 
-	#include <stdio.h>
-	#include <string.h>
-	#include <iostream>
-	using namespace std;
-
 	#define INT_MAX     2147483647
 	#define INT_MIN     (-INT_MAX - 1)
 
@@ -44,27 +39,4 @@ __Code:__
 	        return INT_MAX;
 	    }
 	    return (int)result * sign;
-	}
-
-
-	int main()
-	{
-	    cout << "0/2=" << divide(0, 2) << endl;
-	    cout << "10/2=" << divide(10, 2) << endl;
-	    cout << "10/3=" << divide(10, 3) << endl;
-	    cout << "10/5=" << divide(10, 5) << endl;
-	    cout << "10/7=" << divide(10, 7) << endl;
-	    cout << "10/10=" << divide(10, 10) << endl;
-	    cout << "10/11=" << divide(10, 11) << endl;
-	    cout << "-1/1=" << divide(1, -1) << endl;
-	    cout << "1/-1=" << divide(1, -1) << endl;
-	    cout << "-1/-1=" << divide(-1, -1) << endl;
-	    cout << "2147483647/1=" << divide(2147483647, 1) << endl;
-	    cout << "-2147483647/1=" << divide(-2147483647, 1) << endl;
-	    cout << "2147483647/-1=" << divide(2147483647, -1) << endl;
-	    cout << "-2147483647/-1=" << divide(-2147483647, -1) << endl;
-	    cout << "2147483647/2=" << divide(2147483647, 2) << endl;
-	    cout << "2147483647/10=" << divide(2147483647, 10) << endl;
-	    cout << "-2147483648/1=" << divide(-2147483648, 1) << endl;
-	    cout << "-2147483648/-1=" << divide(-2147483648, -1) << endl;
 	}

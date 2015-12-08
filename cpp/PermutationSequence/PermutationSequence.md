@@ -18,15 +18,6 @@ __Note:__ Given _n_ will be between 1 and 9 inclusive.
 
 __Code:__
 
-	#include <stdlib.h>
-	#include <iostream>
-	#include <sstream>
-	#include <string>
-	#include <vector>
-	#include <algorithm>
-	using namespace std;
-
-
 	/*
 	"123"
 	"132"
@@ -52,11 +43,12 @@ __Code:__
 	        return "";
 	    }
 
-	    // Construct the k-th permutation with a list of n numbers
-	    // Idea: group all permutations according to their first number (so n groups, each of
-	    // (n-1)! numbers), find the group where the k-th permutation belongs, remove the common
-	    // first number from the list and append it to the resulting string, and iteratively
-	    // construct the (((k-1)%(n-1)!)+1)-th permutation with the remaining n-1 numbers
+	    /* Construct the k-th permutation with a list of n numbers
+	     * Idea: group all permutations according to their first number (so n groups, each of
+	     * (n-1)! numbers), find the group where the k-th permutation belongs, remove the common
+	     * first number from the list and append it to the resulting string, and iteratively
+	     * construct the (((k-1)%(n-1)!)+1)-th permutation with the remaining n-1 numbers
+	     */
 	    int group = total;
 	    stringstream ss;
 	    while (n>0) {
@@ -65,8 +57,9 @@ __Code:__
 	        ss << num[idx];
 	        num.erase(num.begin()+idx);
 	        n--;
-	        //the next k also can be caculated like this: 
-	        //    k = (k-1)%group + 1; 
+	        /* the next k also can be caculated like this: 
+	         * k = (k-1)%group + 1; 
+	         */
 	        k -= group * idx;
 	    }
 
@@ -148,17 +141,4 @@ __Code:__
 	    }
 
 	    reverse( num.begin(), num.end() );
-	}
-
-
-	int main(int argc, char**argv)
-	{
-	    int n=3, k=6;
-	    if ( argc > 2 ) {
-	        n = atoi(argv[1]);
-	        k = atoi(argv[2]);
-	    }
-	    cout << "n = " << n << ", k = " << k << " : " << getPermutation(n, k) << endl;
-
-	    return 0;
 	}

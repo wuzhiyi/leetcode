@@ -7,10 +7,6 @@ You may assume no duplicate exists in the array.
 
 __Code:__
 
-	#include <stdio.h>
-	#include <stdlib.h>
-	#include <time.h>
-
 	int binary_search(int A[], int n, int key); 
 	int binary_search(int A[], int l, int h, int key); 
 	int rotate_search(int A[], int l, int h, int key);
@@ -18,12 +14,6 @@ __Code:__
 	int search1(int A[], int n, int target);
 	int search2(int A[], int n, int target); 
 
-	int search(int A[], int n, int target) {
-	    if (random()%2){
-	        return search1(A, n, target);
-	    }
-	    return search2(A, n, target);
-	}
 	/*
 	 *    Using binary search idea, 
 	 *    1) Spliting the array to two part, one part should be non-rotated, another one is rotated.
@@ -173,52 +163,4 @@ __Code:__
 	        }
 	    }
 	    
-	}
-
-	void printArray(int A[], int n) {
-	    printf("{");
-	    for(int i=0; i<n; i++) {
-	        printf("%d, ", A[i]);
-	    }
-	    printf("}\n");
-	}
-
-	int main(int argc, char** argv)
-	{
-
-	    int cnt=20;
-
-	    if (argc>1) {
-	        cnt = atoi(argv[1]);
-	    }
-
-	    srand(time(NULL)); 
-
-	   for(int n=0; n<=cnt; n++) {
-	        printf("--------------------------------------\n");
-	        int *a = new int[cnt];
-	        for(int i=0; i<cnt; i++){
-	            a[i]=i*2;
-	        }
-	        //printArray(a, cnt);
-	        int rotate = random() % cnt;
-	        //rotate=2;
-	        //printf("rotate=%d\n", rotate);
-	        rotate_array(a, cnt, rotate);
-	        printArray(a, cnt);
-	        int target = random() % (2*cnt);
-	        //target=6;
-	        printf("target=%d\n", target);
-	    
-	        int idx = search(a, cnt, target);
-	        if ( idx<0 ){
-	            printf("not found!\n");
-	        }else{
-	            printf("a[%d] = %d\n", idx, a[idx]); 
-	        }
-	        
-	        delete[] a;
-	   }
-
-	    return 0;
 	}

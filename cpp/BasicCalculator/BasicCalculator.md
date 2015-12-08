@@ -15,21 +15,7 @@ __Note: Do not__ use the eval built-in library function.
 
 __Code:__
 
-	#include <stdlib.h>
-	#include <ctype.h>
-	#include <iostream>
-	#include <string>
-	#include <stack>
-	#include <vector>
-	using namespace std;
-
-	/*
-	 * Sorry, I cannot help using Design Pattern  ;-)
-	 * (https://en.wikipedia.org/wiki/Interpreter_pattern)
-	 *
-	 * Two Stack is cheap, design pattern is powerful!   ;-)
-	 * 
-	 * But WTF, Memory Limit Exceeded!! Shit!!
+	/* Memory Limit Exceeded
 	 */
 
 	class Expression 
@@ -293,15 +279,4 @@ __Code:__
 	    return calculate_two_stacks(s);
 	    return calculate_RPN_evluation(s);
 	    return calculate_RPN_design_pattern(s);
-	}
-
-	int main(int argc, char** argv) {
-	    string s = " 15-(1+3)+(2+1) ";
-	    if (argc >1){
-	        s = argv[1];
-	    } 
-	    cout << s << " = " << calculate(s) << endl;
-	    cout << "---------------" << endl;
-	    s = "(2+4)-(6+(1+5))";
-	    cout << s << " = " << calculate(s) << endl;
 	}
