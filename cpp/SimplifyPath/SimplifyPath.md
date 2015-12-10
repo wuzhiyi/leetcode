@@ -14,13 +14,6 @@ In this case, you should ignore redundant slashes and return `"/home/foo"`.
 
 __Code:__
 
-	#include <iostream>
-	#include <string>
-	#include <vector>
-	#include <sstream>
-	using namespace std;
-
-
 	vector<string> &split(const string &s, char delim, vector<string> &elems) {
 	    stringstream ss(s);
 	    string item;
@@ -66,14 +59,4 @@ __Code:__
 
 	    return  result.size() ? result : "/";
 	        
-	}
-
-	int main(int argc, char** argv)
-	{
-	    string path("/a/./b/../../c/");
-	    if (argc > 1 ){
-	        path = argv[1];
-	    }
-
-	    cout << path << " : " << simplifyPath(path) << endl;
 	}

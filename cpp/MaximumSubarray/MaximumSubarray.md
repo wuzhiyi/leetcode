@@ -9,10 +9,6 @@ If you have figured out the O(_n_) solution, try coding another solution using t
 
 __Code:__
 
-	#include <stdio.h>
-	#include <stdlib.h>
-	#include <time.h>
-
 	#define INT_MIN     (-2147483647 - 1)
 
 	int maxSubArray1(int A[], int n);

@@ -241,19 +241,19 @@ __Easy:__
 
 __Medium:__
 
-- 12 [Integer to Roman]()
+- 12 [Integer to Roman](cpp/IntegertoRoman/IntegertoRoman.md)
 - 273 [Integer to English Words](cpp/IntegertoEnglishWords/IntegertoEnglishWords.md)
 - 43 [Multiply Strings](cpp/MultiplyStrings/MultiplyStrings.md)
 - 3 [Longest Substring Without Repeating Characters](cpp/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.md)
-- 93 [Restore IP Addresses]()
-- 5 [Longest Palindrome Substring]()
-- 17 [Letter Combinations of a Phone Number]()
-- 49 [Group Anagrams]()
-- 22 [Generate Parentheses]()
-- 151 [Reverse Words in a String]()
-- 71 [Simplify Path]()
-- 91 [Decode Ways]()
-- 227 [Basic Calculator II]()
+- 93 [Restore IP Addresses](cpp/RestoreIPAddresses/RestoreIPAddresses.md)
+- 5 [Longest Palindromic Substring](cpp/LongestPalindromicSubstring/LongestPalindromicSubstring.md)
+- 17 [Letter Combinations of a Phone Number](cpp/LetterCombinationsofaPhoneNumber/LetterCombinationsofaPhoneNumber.md)
+- 49 [Group Anagrams](cpp/GroupAnagrams/GroupAnagrams.md)
+- 22 [Generate Parentheses](cpp/GenerateParentheses/GenerateParentheses.md)
+- 151 [Reverse Words in a String](cpp/ReverseWordsinaString/ReverseWordsinaString.md)
+- 71 [Simplify Path](cpp/SimplifyPath/SimplifyPath.md)
+- 91 [Decode Ways](cpp/DecodeWays/DecodeWays.md)
+- 227 [Basic Calculator II](cpp/IntegertoRoman/IntegertoRoman.md)
 
 __Hard:__
 
@@ -288,12 +288,12 @@ __Medium:__
 - 240 [Search a 2D Matrix II](cpp/Searcha2DMatrixII/Searcha2DMatrixII.md)
 - 50 [Pow(x, n)](cpp/Powxn/Powxn.md)
 - 209 [Minimum Size Subarray Sum](cpp/MinimumSizeSubarraySum/MinimumSizeSubarraySum.md)
-- 35 [Search Insert Position]()
-- 153 [Find Minimum in Rotated Sorted Array]()
-- 230 [Kth Smallest Element in a BST]()
-- 275 [H-Index II]()
-- 222 [Count Complete Tree Nodes]()
-- 162 [Find Peak Element]()
+- 35 [Search Insert Position](cpp/SearchInsertPosition/SearchInsertPosition.md)
+- 153 [Find Minimum in Rotated Sorted Array](cpp/FindMinimuminRotatedSortedArray/FindMinimuminRotatedSortedArray.md)
+- 230 [Kth Smallest Element in a BST](cpp/KthSmallestElementinaBST/KthSmallestElementinaBST.md)
+- 275 [H-Index II](cpp/HIndexII/HIndexII.md)
+- 222 [Count Complete Tree Nodes](cpp/CountCompleteTreeNodes/CountCompleteTreeNodes.md)
+- 162 [Find Peak Element](cpp/FindPeakElement/FindPeakElement.md)
 
 __Hard:__
 
@@ -312,9 +312,9 @@ __Easy:__
 __Medium:__
 
 - 240 [Search a 2D Matrix II](cpp/Searcha2DMatrixII/Searcha2DMatrixII.md)
-- 53 [Maximum Subarray]()
-- 215 [Kth Largest Element in an Array]()
-- 241 [Different Ways to Add Parentheses]()
+- 53 [Maximum Subarray](cpp/MaximumSubarray/MaximumSubarray.md)
+- 215 [Kth Largest Element in an Array](cpp/KthLargestElementinanArray/KthLargestElementinanArray.md)
+- 241 [Different Ways to Add Parentheses](cpp/DifferentWaystoAddParentheses/DifferentWaystoAddParentheses.md)
 - 312 [BurstBalloons]()
 
 __Hard:__
@@ -340,14 +340,14 @@ __Medium:__
 - 96 [Unique Binary Search Trees]()
 - 95 [Unique Binary Search Trees II]()
 - 213 [House Robber II]()
-- 91 [Decode Ways]()
+- 91 [Decode Ways](cpp/DecodeWays/DecodeWays.md)
 - 279 [Perfect Squares](cpp/PerfectSquares/PerfectSquares.md)
 - 300 [Longest Increasing Subsequence](cpp/LongestIncreasingSubsequence/LongestIncreasingSubsequence.md)
 - 120 [Triangle]()
 - 264 [Ugly Number II](cpp/UglyNumberII/UglyNumberII.md)
 - 62 [Unique Paths](cpp/UniquePaths/UniquePaths.md)
 - 121 [Best Time to Buy and Sell Stock](cpp/BestTimetoBuyandSellStock/BestTimetoBuyandSellStock.md)
-- 53 [Maximum Subarray]()
+- 53 [Maximum Subarray](cpp/MaximumSubarray/MaximumSubarray.md)
 - 152 [Maximum Product Subarray](cpp/MaximumProductSubarray/MaximumProductSubarray.md)
 - 221 [Maximal Square]()
 
@@ -357,7 +357,7 @@ __Medium:__
 
 - 211 [Add and Search Word - Data structure design]()
 - 89 [Gray Code]()
-- 22 [Generate Parentheses]()
+- 22 [Generate Parentheses](cpp/GenerateParentheses/GenerateParentheses.md)
 - 77 [Combinations]()
 - 39 [Combination Sum](cpp/CombinationSum/CombinationSum.md)
 - 216 [Combination Sum III](cpp/CombinationSumIII/CombinationSumIII.md)
@@ -369,8 +369,8 @@ __Medium:__
 - 78 [Subsets]()
 - 131 [Palindrome Partitioning]()
 - 90 [Subsets II]()
-- 93 [Restore IP Addresses]()
-- 17 [Letter Combinations of a Phone Number]()
+- 93 [Restore IP Addresses](cpp/RestoreIPAddresses/RestoreIPAddresses.md)
+- 17 [Letter Combinations of a Phone Number](cpp/LetterCombinationsofaPhoneNumber/LetterCombinationsofaPhoneNumber.md)
 
 ##Stack
 
@@ -384,7 +384,7 @@ __Easy:__
 __Medium:__
 
 - 173 [Binary Search Tree Iterator]()
-- 71 [Simplify Path]()
+- 71 [Simplify Path](cpp/SimplifyPath/SimplifyPath.md)
 - 94 [Binary Tree Inorder Traversal]()
 - 144 [Binary Tree Preorder Traversal](cpp/BinaryTreePreorderTraversal/BInaryTreePreorderTraversal.md)
 - 150 [Evaluate Reverse Polish Notation]()
@@ -396,7 +396,7 @@ __Medium:__
 __Medium:__
 
 - 264 [Ugly Number II](cpp/UglyNumberII/UglyNumberII.md)
-- 215 [Kth Largest Element in an Array]()
+- 215 [Kth Largest Element in an Array](cpp/KthLargestElementinanArray/KthLargestElementinanArray.md)
 - 218 [The Skyline Problem]()
 
 ##Greedy
@@ -463,7 +463,7 @@ __Medium:__
 - 173 [Binary Search Tree Iterator]()
 - 236 [Lowest Common Ancestor of a Binary Tree]()
 - 144 [Binary Tree Preorder Traversal](cpp/BinaryTreePreorderTraversal/BInaryTreePreorderTraversal.md)
-- 230 [Kth Smallest Element in a BST]()
+- 230 [Kth Smallest Element in a BST](cpp/KthSmallestElementinaBST/KthSmallestElementinaBST.md)
 - 199 [Binary Tree Right Side View]()
 - 98 [Validate Binary Search Tree]()
 - 222 [Count Complete Tree Nodes](cpp/CountCompleteTreeNodes/CountCompleteTreeNodes.md)

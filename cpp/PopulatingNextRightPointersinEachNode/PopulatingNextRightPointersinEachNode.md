@@ -34,11 +34,6 @@ After calling your function, the tree should look like:
 
 __Code:__
 
-	#include <stdio.h>
-	#include <vector>
-	#include <queue>
-	using namespace std;
-
 	/**
 	 * Definition for binary tree with next pointer.
 	 */
@@ -186,40 +181,4 @@ __Code:__
 	        }
 	    }
 	#undef push
-	}
-
-	void printTree(TreeLinkNode *root){
-	    if (root == NULL){
-	        return;
-	    }
-	    printf("[%d], left[%d], right[%d], next[%d]\n", 
-	            root->val, 
-	            root->left ? root->left->val : -1, 
-	            root->right ? root->right->val : -1, 
-	            root->next?root->next->val : -1 );    
-
-	    printTree(root->left);
-	    printTree(root->right);
-	 
-	}
-
-	int main()
-	{
-	    const int cnt = 7; 
-	    TreeLinkNode a[cnt];
-	    for(int i=0; i<cnt; i++){
-	        a[i].val = i+1;
-	    } 
-
-	    
-	    for(int i=0, pos=0;  pos < cnt-1; i++ ){
-	        a[i].left = &a[++pos];
-	        a[i].right = &a[++pos];
-	    }
-	    
-	    connect(&a[0]); 
-
-	    printTree(&a[0]);
-
-	    return 0;
 	}

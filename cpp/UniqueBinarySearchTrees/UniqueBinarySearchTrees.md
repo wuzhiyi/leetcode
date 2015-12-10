@@ -12,13 +12,6 @@ Given n = 3, there are a total of 5 unique BST's.
 
 __Code:__
 
-	#include <stdio.h>
-	#include <stdlib.h>
-	#include <string.h>
-
-	int numTrees1(int n) ;
-	int numTrees2(int n) ;
-
 	int numTrees(int n) {
 	    return numTrees1(n);
 	}
@@ -53,15 +46,4 @@ __Code:__
 	        }
 	    }
 	    return sum;
-	}
-
-
-	int main(int argc, char** argv) 
-	{
-	    int n=2;
-	    if (argc>1){
-	        n = atoi(argv[1]);
-	    }
-	    printf("%d=%d\n", n, numTrees(n));
-	    return 0;
 	}

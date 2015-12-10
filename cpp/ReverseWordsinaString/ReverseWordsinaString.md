@@ -19,12 +19,6 @@ Reduce them to a single space in the reversed string.
 
 __Code:__
 
-	#include <ctype.h>
-	#include <iostream>
-	#include <string>
-	#include <vector>
-	using namespace std;
-
 	void reverseWords(string &s) {
 	    
 	    bool wordStart = false;
@@ -66,19 +60,4 @@ __Code:__
 	            s.clear();
 	    }
 	    cout << "[" << s << "]" <<endl;
-	}
-	    
-	main()
-	{
-	   string s;
-	   reverseWords(s);
-	   s=" ";
-	   reverseWords(s);
-	   s="1 ";
-	   reverseWords(s);
-	   s="love";
-	   reverseWords(s);
-	   s="i love cpp";
-	   reverseWords(s);
-
 	}

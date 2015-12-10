@@ -9,12 +9,6 @@ return `["255.255.11.135", "255.255.111.35"]`. (Order does not matter)
 
 __Code:__
 
-	#include <stdlib.h>
-	#include <iostream>
-	#include <string>
-	#include <vector>
-	using namespace std;
-
 	void restoreIpAddressesHelper(string& s, int start, int partNum, string ip, vector<string>& result);
 
 	vector<string> restoreIpAddresses(string s) {
@@ -50,21 +44,4 @@ __Code:__
 	        }
 	    }
 	       
-	}
-
-
-	int main(int argc, char**argv)
-	{
-	    string s = "25525511135";
-	    if (argc>1){
-	        s = argv[1];
-	    }
-
-	    vector<string> result = restoreIpAddresses(s);
-
-	    cout << s << endl;
-	    for(int i=0; i<result.size(); i++){
-	        cout << '\t' << result[i] << endl;
-	    }
-	    return 0;
 	}

@@ -25,6 +25,7 @@ __Code:__
 	class Solution {
 	public:
 	    // in-order travel - recursive way
+	    // Wrong Answer
 	    int kthSmallestHelper_recursive(TreeNode* root, int& k) {
 	        if (root==NULL) return 0; //this behavior is undefined!
 	        
@@ -59,8 +60,4 @@ __Code:__
 	        return -1;
 	    }
 	    
-	    int kthSmallest(TreeNode* root, int k) {
-	        //return kthSmallestHelper_nonRecursive(root, k);
-	        return kthSmallestHelper_recursive(root, k);
-	    }
 	};
