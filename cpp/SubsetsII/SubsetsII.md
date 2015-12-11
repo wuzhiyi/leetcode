@@ -20,14 +20,6 @@ If ___nums___ = `[1,2,2]`, a solution is:
 
 __Code:__
 
-	#include <stdio.h>
-	#include <stdlib.h>
-	#include <time.h>
-	#include <iostream>
-	#include <vector>
-	#include <algorithm>
-	using namespace std;
-
 	void getCombination(vector<int>& v, int n, int k, vector<int>& solution, vector< vector<int> >& result );
 	vector<vector<int> > combine(vector<int>& v, int k); 
 	vector<vector<int> > combine1(vector<int>& v, int k); 
@@ -66,52 +58,4 @@ __Code:__
 	        //skip the duplication
 	        while (i>1 && v[i-1]==v[i-2]) i--;
 	   }
-	}
-
-
-	void printResult(vector<vector<int> >& result)
-	{
-	    for(int i=0; i<result.size(); i++){
-	        cout << "{";
-	        for(int j=0; j<result[i].size(); j++){
-	            cout << " " << result[i][j];
-	        }
-	        cout << " }" <<endl;
-	    }
-	}
-
-	void printArray(vector<int>& v){
-	    cout << "{";
-	    for(int i=0; i<v.size(); i++) {
-	        cout << " " << v[i];
-	    }
-	    cout << " }" << endl;
-	}
-
-	int main(int argc, char** argv)
-	{
-	    srand(time(NULL));
-
-	    int n = 3;
-	    if (argc>1){
-	        n = atoi(argv[1]);
-	    }
-	    vector<int> v;
-	    for(int i=n; i>0; i--){
-	        v.push_back(random()%n+1);
-	    }
-	    printArray(v);
-	    cout << "--------------------" <<endl;
-	    vector<vector<int> > r = subsets(v);
-	    printResult(r);
-	    cout << "====================" <<endl;
-
-	    int a[] = {1, 4, 4, 4, 4,};
-	    v.clear();
-	    v.insert(v.begin(), a, a+5);
-	    printArray(v);
-	    cout << "--------------------" <<endl;
-	    r = subsets(v);
-	    printResult(r);
-	    cout << "====================" <<endl;
 	}

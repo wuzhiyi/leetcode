@@ -95,22 +95,3 @@ __Code:__
 	    }
 	    return ret;   
 	}
-
-	//random invoker
-	vector<int> grayCode(int n) {
-	    srand(time(0));
-	    if (rand()%2){
-	        return grayCode01(n);
-	    }
-	    return grayCode02(n);
-	}
-
-	void printBits(int n, int len){
-	    for(int i=len-1; i>=0; i--) {
-	        if (n & (1<<i)) {
-	            printf("1");
-	        }else{
-	            printf("0");
-	        }
-	    }
-	}

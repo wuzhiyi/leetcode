@@ -338,7 +338,7 @@ __Medium:__
 - 64 [Minimum Path Sum](cpp/MinimumPathSum/MinimumPathSum.md)
 - 63 [Unique Paths II](cpp/UniquePathsII/UniquePathsII.md)
 - 96 [Unique Binary Search Trees]()
-- 95 [Unique Binary Search Trees II]()
+- 95 [Unique Binary Search Trees II](cpp/UniqueBinarySearchTreesII/UniqueBinarySearchTreesII.md)
 - 213 [House Robber II]()
 - 91 [Decode Ways](cpp/DecodeWays/DecodeWays.md)
 - 279 [Perfect Squares](cpp/PerfectSquares/PerfectSquares.md)
@@ -356,19 +356,19 @@ __Medium:__
 __Medium:__
 
 - 211 [Add and Search Word - Data structure design]()
-- 89 [Gray Code]()
+- 89 [Gray Code](cpp/GrayCode/GrayCode.md)
 - 22 [Generate Parentheses](cpp/GenerateParentheses/GenerateParentheses.md)
-- 77 [Combinations]()
+- 77 [Combinations](cpp/Combinations/Combinations.md)
 - 39 [Combination Sum](cpp/CombinationSum/CombinationSum.md)
 - 216 [Combination Sum III](cpp/CombinationSumIII/CombinationSumIII.md)
 - 40 [Combination Sum II](cpp/CombinationSumII/CombinationSumII.md)
-- 79 [Word Search]()
-- 46 [Permutations]()
-- 47 [Permutations II]()
+- 79 [Word Search](cpp/WordSearch/WordSearch.md)
+- 46 [Permutations](cpp/Permutations/Permutations.md)
+- 47 [Permutations II](cpp/PermutationsII/PermutationsII.md)
 - 60 [Permutation Sequence](cpp/PermutationSequence/PermutationSequence.md)
-- 78 [Subsets]()
-- 131 [Palindrome Partitioning]()
-- 90 [Subsets II]()
+- 78 [Subsets](cpp/Subsets/Subsets.md)
+- 131 [Palindrome Partitioning](cpp/PalindromePartitioning/PalindromePartitioning.md)
+- 90 [Subsets II](cpp/SubsetsII/SubsetsII.md)
 - 93 [Restore IP Addresses](cpp/RestoreIPAddresses/RestoreIPAddresses.md)
 - 17 [Letter Combinations of a Phone Number](cpp/LetterCombinationsofaPhoneNumber/LetterCombinationsofaPhoneNumber.md)
 
@@ -383,7 +383,7 @@ __Easy:__
 
 __Medium:__
 
-- 173 [Binary Search Tree Iterator]()
+- 173 [Binary Search Tree Iterator](cpp/BinarySearchTreeIterator/BinarySearchTreeIterator.md)
 - 71 [Simplify Path](cpp/SimplifyPath/SimplifyPath.md)
 - 94 [Binary Tree Inorder Traversal]()
 - 144 [Binary Tree Preorder Traversal](cpp/BinaryTreePreorderTraversal/BInaryTreePreorderTraversal.md)
@@ -433,7 +433,7 @@ __Easy:__
 __Medium:__
 
 - 268 [Missing Number](cpp/MissingNumber/MissingNumber.md)
-- 78 [Subsets]()
+- 78 [Subsets](cpp/Subsets/Subsets.md)
 - 201 [Bitwiwe AND of Numbers Range]()
 - 187 [Repeated DNA Sequences]()
 - 260 [Single Number III](cpp/SingleNumberIII/SingleNumberIII.md)
@@ -448,7 +448,7 @@ __Easy:__
 - 100 [Same Tree](cpp/SameTree/SameTree.md)
 - 107 [Binary Tree Level Order Traversal II]()
 - 102 [Binary Tree Level Order Traversal](cpp/BinaryTreeLvelOrderTraversal/BinaryTreeLevelOrderTraversal.md)
-- 112 [Path Sum]()
+- 112 [Path Sum](cpp/PathSum/PathSum.md)
 - 101 [Symmetric Tree](cpp/SymmetricTree/SymmetricTree.md)
 - 235 [Lowest Common Ancestor of a Binary Search Tree](cpp/LowestCommonAncestorofaBinarySearchTree/LowestCommonAncestorofaBinarySearchTree.md)
 - 104 [Maximum Depth of Binary Tree](cpp/MaximumDepthofBinaryTree/MaximumDepthofBinaryTree.md)
@@ -458,10 +458,10 @@ __Easy:__
 
 __Medium:__
 
-- 113 [Path Sum II]()
-- 95 [Unique Binary Search Trees II]()
-- 173 [Binary Search Tree Iterator]()
-- 236 [Lowest Common Ancestor of a Binary Tree]()
+- 113 [Path Sum II](cpp/PathSumII/PathSumII.md)
+- 95 [Unique Binary Search Trees II](cpp/UniqueBinarySearchTreesII/UniqueBinarySearchTreesII.md)
+- 173 [Binary Search Tree Iterator](cpp/BinarySearchTreeIterator/BinarySearchTreeIterator.md)
+- 236 [Lowest Common Ancestor of a Binary Tree](cpp/LowestCommonAncestorofaBinaryTree/LowestCommonAncestorofaBinarySearchTree.md)
 - 144 [Binary Tree Preorder Traversal](cpp/BinaryTreePreorderTraversal/BInaryTreePreorderTraversal.md)
 - 230 [Kth Smallest Element in a BST](cpp/KthSmallestElementinaBST/KthSmallestElementinaBST.md)
 - 199 [Binary Tree Right Side View]()
@@ -502,7 +502,7 @@ __Medium:__
 
 - 129 [Sum Root to Leaf Numbers]()
 - 199 [Binary Tree Right Side View]()
-- 113 [Path Sum II]()
+- 113 [Path Sum II](cpp/PathSumII/PathSumII.md)
 - 200 [Number of Islands]()
 - 133 [Clone Graph]()
 - 106 [Construct Binary Tree from Inorder and Postorder Traversal]()
@@ -594,7 +594,7 @@ __Medium:__
 - 284 [Peeking Iterator]()
 - 208 [Implement Trie (Prefix Tree)]()
 - 211 [Add and Search Word - Data structure design]()
-- 173 [Binary Search Tree Iterator]()
+- 173 [Binary Search Tree Iterator](cpp/BinarySearchTreeIterator/BinarySearchTreeIterator.md)
 - 297 [Serialize and Deserialize Binary Tree]()
 
 __Hard:__

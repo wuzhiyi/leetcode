@@ -14,11 +14,6 @@ Could you come up with an one-pass algorithm using only constant space?
 
 __Code:__
 
-	#include <stdio.h>
-	#include <stdlib.h>
-	#include <time.h>
-
-
 	void swap(int*a, int*b)
 	{
 	    int t;
@@ -40,30 +35,4 @@ __Code:__
 	        }
 	    }
 	    
-	}
-
-	void printArray(int a[], int n) {
-	    for(int i=0; i<n; i++){
-	        printf("%d ", a[i]);
-	    }
-	    printf("\n");
-	}
-
-	int main(int argc, char** argv)
-	{
-	    int n = 7;
-	    if (argc>1)
-	        n = atoi(argv[1]);
-
-	    srand(time(NULL));
-
-	    int *a = new int[n];
-	    for (int i=0; i<n; i++){
-	        a[i] = random()%3;
-	    }
-	    printArray(a, n);
-	    sortColors(a, n);
-	    printArray(a, n);
-
-	    delete[] a;
 	}

@@ -1,0 +1,15 @@
+/* Bit algorithm
+ * mathematical way: (num>>1)^num;
+ */
+
+class Solution {
+public:
+    vector<int> grayCode(int n) {
+        vector<int> ret;
+        int size = 1<<n;
+        for (int i=0; i<size; i++) {
+            ret.push_back((i>>1)^i);
+        }
+        return ret;
+    }
+};

@@ -29,12 +29,6 @@ The above binary tree is serialized as `"{1,2,3,#,#,4,#,#,5}"`.
 
 __Code:__
 
-	#include <stdio.h>
-	#include <stdlib.h>
-	#include <string.h>
-	#include <vector>
-	using namespace std;
-
 	struct TreeNode {
 	    int val;
 	    TreeNode *left;
@@ -75,30 +69,4 @@ __Code:__
 	        }
 	    }
 	    return v;
-	}
-
-	void printTree(TreeNode *root){
-	    if (root == NULL){
-	        printf("# ");
-	        return;
-	    }
-	    printf("%d ", root->val );
-
-	    printTree(root->left);
-	    printTree(root->right);
-	}
-
-
-	int main(int argc, char** argv) 
-	{
-	    int n=2;
-	    if (argc>1){
-	        n = atoi(argv[1]);
-	    }
-	    vector<TreeNode*> v = generateTrees(n);
-	    for(int i=0; i<v.size(); i++){
-	        printTree(v[i]);
-	        printf("\n");
-	    }
-	    return 0;
 	}

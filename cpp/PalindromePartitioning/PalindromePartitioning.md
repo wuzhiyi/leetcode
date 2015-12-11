@@ -14,13 +14,6 @@ Return
 
 __Code:__
 
-
-	#include <iostream>
-	#include <vector>
-	#include <string>
-	using namespace std;
-
-
 	bool isPalindrome(string &s, int start, int end)  {  
 
 	    while(start < end)  
@@ -88,29 +81,4 @@ __Code:__
 
 	    return result;
 
-	}
-
-	void printMatrix(vector< vector<string> > &matrix)
-	{
-	    for(int i=0; i<matrix.size(); i++){
-	        cout << "{ ";
-	        for(int j=0; j< matrix[i].size(); j++) {
-	            cout << matrix[i][j] << ", ";
-	        }
-	        cout << "}" << endl;
-	    }
-	    cout << endl;
-	}
-
-
-	int main(int argc, char** argv)
-	{
-	    string s("aab");
-	    if ( argc > 1 ){
-	        s = argv[1];
-	    }
-
-	    vector< vector<string> > result = partition(s);
-
-	    printMatrix(result);
 	}

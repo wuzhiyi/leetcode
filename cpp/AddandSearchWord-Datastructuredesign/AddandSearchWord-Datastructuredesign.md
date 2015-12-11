@@ -24,11 +24,6 @@ You should be familiar with how a Trie works. If not, please work on this proble
 
 __Code:__
 
-	#include <string.h>
-	#include <iostream>
-	#include <string>
-	using namespace std;
-
 	const int MAX_CHARS = 26;
 
 	/*Trie Node*/
@@ -136,15 +131,3 @@ __Code:__
 	// WordDictionary wordDictionary;
 	// wordDictionary.addWord("word");
 	// wordDictionary.search("pattern");
-
-	int main()
-	{
-	    WordDictionary wd;
-	    wd.addWord("a");
-	    cout << wd.search("a.") <<endl;;
-	    cout << wd.search(".a") << endl;;
-	    wd.addWord("bad");
-	    cout << wd.search("bad") <<endl;;
-	    cout << wd.search("b..") <<endl;;
-	    return 0;
-	}

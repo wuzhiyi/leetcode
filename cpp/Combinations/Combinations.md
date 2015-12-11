@@ -16,26 +16,9 @@ If n = 4 and k = 2, a solution is:
 
 __Code:__
 
-	#include <stdio.h>
-	#include <stdlib.h>
-	#include <time.h>
-	#include <iostream>
-	#include <vector>
-	#include <algorithm>
-	using namespace std;
-
 	void getCombination(int n, int k, vector<int>& solution, vector< vector<int> >& result );
 	vector<vector<int> > combine1(int n, int k); 
 	vector<vector<int> > combine2(int n, int k);
-
-	vector<vector<int> > combine(int n, int k) {
-	    if (random()%2){
-	        cout << "recusive method!" << endl;
-	        return combine1(n, k);
-	    }
-	    cout << "non-recusive method!" << endl;
-	    return combine2(n, k);
-	}
 
 	vector<vector<int> > combine1(int n, int k) {
 	    vector<vector<int> > result;
@@ -101,31 +84,4 @@ __Code:__
 	    }
 	    return result;
 	    
-	}
-
-
-
-
-	void printResult(vector<vector<int> >& result)
-	{
-	    for(int i=0; i<result.size(); i++){
-	        cout << "{";
-	        for(int j=0; j<result[i].size(); j++){
-	            cout << " " << result[i][j];
-	        }
-	        cout << " }" <<endl;
-	    }
-	}
-
-	int main(int argc, char** argv)
-	{
-	    srand(time(NULL));
-
-	    int n = 4, k =2;
-	    if (argc>2){
-	        n = atoi(argv[1]);
-	        k = atoi(argv[2]);
-	    }
-	    vector<vector<int> > r = combine(n, k);
-	    printResult(r);
 	}
