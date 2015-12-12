@@ -1,0 +1,57 @@
+s = “abcdefghijklmnopqrst”
+nRows=5
+
+RUN:
+s.size();
+int row=0;
+int step=1;
+for(i=0; i<s.size(); i++) {
+	if (row=0 == nRows-1=4) //FALSE
+	if (row=0 == 0) step=1;
+	r[row=0] = r[0] + s[0] = a;
+	row = 0+1 = 1;
+for(i=1<14; i++) {
+	if (row=1 == nRows-1=4) //FALSE
+	if (row=1 == 0) //FALSE
+	r[row=1] = r[1] + s[1] = b;
+	row = 1+1 = 2;
+for(i=2<14; i++) {
+	if (row=2 == nRows-1=4) //FALSE;
+	if (row=2 == 0) //FALSE
+	r[row=2] = r[2] + s[2] = c;
+	row = 2 + 1 = 3;
+for(i=3<14; i++) {
+	if (row=3 == nRows-1=4) //FALSE
+	if (row=3 == 0) //FALSE
+	r[row=3] = r[3] + s[3] = d;
+	row = 3 + 1 = 4;
+for(i=3<14; i++) {
+	if (row=3 == nRows-1=4) //FALSE
+	if (row=3 == 0) //FALSE
+	r[row=3] = r[3] + s[3] = d;
+	row = 3 + 1 = 4;
+for(i=4<14; i++) {
+	if (row=4 == nRows-1=4) step=-1;
+	if (row=4 == 0) //FALSE
+	r[row=4] = r[4] + s[4] = e;
+	row = 4 - 1 = 3;
+for(i=5<14; i++) {
+	if (row=3 == nRows-1=4) //FALSE
+	if (row=3 == 0) //FALSE
+	r[row=3] = r[3] + s[5] = df;
+	row = 3 - 1 = 2;
+for(i=6<14; i++) {
+	if (row=2 == nRows-1=4) //FALSE
+	if (row=2 == 0) //FALSE
+	r[row=3] = r[3] + s[3] = d;
+	row = 3 + 1 = 4;
+for(i=3<14; i++) {
+	if (row=3 == nRows-1=2) //FALSE
+	if (row=3 == 0) //FALSE
+	r[row=3] = r[3] + s[3] = d;
+	row = 3 + 1 = 4;
+for(i=3<14; i++) {
+	if (row=3 == nRows-1=2) //FALSE
+	if (row=3 == 0) //FALSE
+	r[row=3] = r[3] + s[3] = d;
+	row = 3 + 1 = 4;

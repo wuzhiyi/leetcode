@@ -1,0 +1,10 @@
+nums=[1,2,3]
+
+RUN:
+sort(nums.begin(), nums.end())// nums=[1,2,3]
+vector<vector<int>> result(1); //result=[]
+for (i=0; i<nums.size()=3; ++i) {
+	int length=result.size()=1;
+	for (j=0; j<1; ++j) {
+		result.push_back(result[0]=[]);
+		result.back().push_back(nums[0]=1);

@@ -1,0 +1,29 @@
+prices = [1, 2, 3, 0, 2]
+
+RUN:
+int buy=INT_MIN, pre_buy=0, sell=0, pre_sell=0;
+for (int price=1 : prices) {
+	pre_buy = buy = 0;
+	buy = max(pre_sell-price=0-1=-1, pre_buy=0) = -1;
+	pre_sell = sell = 0;
+	sell = max(pre_buy+price=0+1=1, pre_sell=0) = 1;
+for (int price = 2 : prices) {
+	pre_buy = buy = 0;
+	buy = max(pre_sell-price=0-1=-1, pre_buy=0) = -1;
+	pre_sell = sell = 0;
+	sell = max(pre_buy+price=0+1=1, pre_sell=0) = 1;
+for (int price = 2 : prices) {
+	pre_buy = buy = 0;
+	buy = max(pre_sell-price=0-1=-1, pre_buy=0) = -1;
+	pre_sell = sell = 0;
+	sell = max(pre_buy+price=0+1=1, pre_sell=0) = 1;
+for (int price = 2 : prices) {
+	pre_buy = buy = 0;
+	buy = max(pre_sell-price=0-1=-1, pre_buy=0) = -1;
+	pre_sell = sell = 0;
+	sell = max(pre_buy+price=0+1=1, pre_sell=0) = 1;
+for (int price = 2 : prices) {
+	pre_buy = buy = 0;
+	buy = max(pre_sell-price=0-1=-1, pre_buy=0) = -1;
+	pre_sell = sell = 0;
+	sell = max(pre_buy+price=0+1=1, pre_sell=0) = 1;

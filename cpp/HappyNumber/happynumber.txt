@@ -1,0 +1,7 @@
+input: 7
+
+RUN:
+while (getSquareSum(7) > 10)
+getSquareSum(7) {
+	
+}

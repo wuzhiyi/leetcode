@@ -315,7 +315,7 @@ __Medium:__
 - 53 [Maximum Subarray](cpp/MaximumSubarray/MaximumSubarray.md)
 - 215 [Kth Largest Element in an Array](cpp/KthLargestElementinanArray/KthLargestElementinanArray.md)
 - 241 [Different Ways to Add Parentheses](cpp/DifferentWaystoAddParentheses/DifferentWaystoAddParentheses.md)
-- 312 [BurstBalloons]()
+- 312 [Burst Balloons](cpp/BurstBalloons/BurstBalloons.md)
 
 __Hard:__
 
@@ -334,22 +334,22 @@ __Easy:__
 
 __Medium:__
 
-- 304 [Range Sum Query 2D - Immutable]()
+- 304 [Range Sum Query 2D - Immutable](cpp/RangeSumQuery2DImmutable/RangeSumQuery2DImmutable.md)
 - 64 [Minimum Path Sum](cpp/MinimumPathSum/MinimumPathSum.md)
 - 63 [Unique Paths II](cpp/UniquePathsII/UniquePathsII.md)
-- 96 [Unique Binary Search Trees]()
+- 96 [Unique Binary Search Trees](cpp/UniqueBinarySearchTrees/UniqueBinarySearchTrees.md)
 - 95 [Unique Binary Search Trees II](cpp/UniqueBinarySearchTreesII/UniqueBinarySearchTreesII.md)
-- 213 [House Robber II]()
+- 213 [House Robber II](cpp/HouseRobberII/HouseRobberII.md)
 - 91 [Decode Ways](cpp/DecodeWays/DecodeWays.md)
 - 279 [Perfect Squares](cpp/PerfectSquares/PerfectSquares.md)
 - 300 [Longest Increasing Subsequence](cpp/LongestIncreasingSubsequence/LongestIncreasingSubsequence.md)
-- 120 [Triangle]()
+- 120 [Triangle](cpp/Triangle/Triangle.md)
 - 264 [Ugly Number II](cpp/UglyNumberII/UglyNumberII.md)
 - 62 [Unique Paths](cpp/UniquePaths/UniquePaths.md)
 - 121 [Best Time to Buy and Sell Stock](cpp/BestTimetoBuyandSellStock/BestTimetoBuyandSellStock.md)
 - 53 [Maximum Subarray](cpp/MaximumSubarray/MaximumSubarray.md)
 - 152 [Maximum Product Subarray](cpp/MaximumProductSubarray/MaximumProductSubarray.md)
-- 221 [Maximal Square]()
+- 221 [Maximal Square](cpp/MaximalSquare/MaximalSquare.md)
 
 ##Backtracking
 
@@ -385,11 +385,11 @@ __Medium:__
 
 - 173 [Binary Search Tree Iterator](cpp/BinarySearchTreeIterator/BinarySearchTreeIterator.md)
 - 71 [Simplify Path](cpp/SimplifyPath/SimplifyPath.md)
-- 94 [Binary Tree Inorder Traversal]()
+- 94 [Binary Tree Inorder Traversal](cpp/BinaryTreeInorderTraversal/BinaryTreeInorderTraversal.md)
 - 144 [Binary Tree Preorder Traversal](cpp/BinaryTreePreorderTraversal/BInaryTreePreorderTraversal.md)
-- 150 [Evaluate Reverse Polish Notation]()
+- 150 [Evaluate Reverse Polish Notation](cpp/EvaluateReversePolishNotation/EvaluateReversePolishNotation.md)
 - 224 [Basic Calculator](cpp/BasicCalculator/BasicCalculator.md)
-- 103 [Binary Tree Zigzag Level Order Traversal]()
+- 103 [Binary Tree Zigzag Level Order Traversal](cpp/BinaryTreeZigzagLevelOrderTraversal/BinaryTreeZigzagLevelOrderTraversal.md)
 
 ##Heap
 
@@ -397,6 +397,13 @@ __Medium:__
 
 - 264 [Ugly Number II](cpp/UglyNumberII/UglyNumberII.md)
 - 215 [Kth Largest Element in an Array](cpp/KthLargestElementinanArray/KthLargestElementinanArray.md)
+- 313 [Super Ugly Number]()
+
+__Hard:__
+
+- 239 [Sliding Window Maximum]()
+- 23 [Merge k Sorted Lists]()
+- 295 [Find Median from Data Stream]()
 - 218 [The Skyline Problem]()
 
 ##Greedy
@@ -404,7 +411,7 @@ __Medium:__
 __Medium:__
 
 - 55 [Jump Game](cpp/JumpGame/JumpGame.md)
-- 134 [Gas Station]()
+- 134 [Gas Station](cpp/GasStation/GasStation.md)
 - 122 [Best Time to Buy and Sell Stock II](cpp/BestTimetoBuyandSellStockII/BestTimetoBuyandSellStockII.md)
 
 ##Sort
@@ -416,10 +423,10 @@ __Easy:__
 __Medium:__
 
 - 148 [Sort List](cpp/SortList/SortList.md)
-- 274 [H-Index]()
+- 274 [H-Index](cpp/HIndex/HIndex.md)
 - 147 [Insertion Sort List](cpp/InsertionSortList/InsertionSortList.md)
 - 75 [Sort Colors](cpp/SortColors/SortColors.md)
-- 179 [Largest Number]()
+- 179 [Largest Number](cpp/LargestNumber/LargestNumber.md)
 
 ##Bit Manipulation
 
@@ -434,8 +441,8 @@ __Medium:__
 
 - 268 [Missing Number](cpp/MissingNumber/MissingNumber.md)
 - 78 [Subsets](cpp/Subsets/Subsets.md)
-- 201 [Bitwiwe AND of Numbers Range]()
-- 187 [Repeated DNA Sequences]()
+- 201 [Bitwiwe AND of Numbers Range](cpp/BitwiseANDofNumbersRange/BitwiseANDofNumbersRange.md)
+- 187 [Repeated DNA Sequences](cpp/RepeatedDNASequences/RepeatedDNASequences.md)
 - 260 [Single Number III](cpp/SingleNumberIII/SingleNumberIII.md)
 - 137 [Single Number II](cpp/SingleNumberII/SingleNumberII.md)
 - 136 [Single Number](cpp/SingleNumber/SingleNumber.md)
@@ -446,7 +453,7 @@ __Easy:__
 
 - 110 [Balanced Binary Tree](cpp/BalancecBinaryTree/BalancedBinaryTree.md)
 - 100 [Same Tree](cpp/SameTree/SameTree.md)
-- 107 [Binary Tree Level Order Traversal II]()
+- 107 [Binary Tree Level Order Traversal II](cpp/BinaryTreeLvelOrderTraversalII/BinaryTreeLevelOrderTraversalII.md)
 - 102 [Binary Tree Level Order Traversal](cpp/BinaryTreeLvelOrderTraversal/BinaryTreeLevelOrderTraversal.md)
 - 112 [Path Sum](cpp/PathSum/PathSum.md)
 - 101 [Symmetric Tree](cpp/SymmetricTree/SymmetricTree.md)
@@ -471,12 +478,12 @@ __Medium:__
 - 105 [Construct Binary Tree from Preorder and Inorder Traversal]()
 - 106 [Construct Binary Tree from Inorder and Postorder Traversal]()
 - 129 [Sum Root to Leaf Numbers](cpp/SumRoottoLeafNumbers/SumRoottoLeafNumbers.md)
-- 103 [Binary Tree Zigzag Level Order Traversal]()
+- 103 [Binary Tree Zigzag Level Order Traversal](cpp/BinaryTreeZigzagLevelOrderTraversal/BinaryTreeZigzagLevelOrderTraversal.md)
 - 114 [Flatten Binary Tree to Linked List](cpp/FlattenBinaryTreetoLinkedList/FlattenBinaryTreetoLinkedList.md)
 - 297 [Serialize and Deserialize Binary Tree]()
 - 94 [Binary Tree Inorder Traversal](cpp/BinaryTreeInorderTraversal/BinaryTreeInorderTraversal.md)
 - 116 [Populating Next Right Pointers in Each Node]()
-- 96 [Unique Binary Search Trees]()
+- 96 [Unique Binary Search Trees](cpp/UniqueBinarySearchTrees/UniqueBinarySearchTrees.md)
 - 117 [Populating Next Right Pointers in Each Node II]()
 
 __Hard:__
@@ -490,7 +497,7 @@ __Hard:__
 
 __Easy:__
 
-- 110 [Balanced Binary Tree]()
+- 110 [Balanced Binary Tree](cpp/BalancecBinaryTree/BalancedBinaryTree.md)
 - 100 [Same Tree](cpp/SameTree/SameTree.md)
 - 257 [Binary Tree Paths](cpp/BinaryTreePaths/BinaryTreePath.md)
 - 112 [Path Sum](cpp/PathSum/PathSum.md)
@@ -500,7 +507,7 @@ __Easy:__
 
 __Medium:__
 
-- 129 [Sum Root to Leaf Numbers]()
+- 129 [Sum Root to Leaf Numbers](cpp/SumRoottoLeafNumbers/SumRoottoLeafNumbers.md)
 - 199 [Binary Tree Right Side View]()
 - 113 [Path Sum II](cpp/PathSumII/PathSumII.md)
 - 200 [Number of Islands]()
@@ -526,7 +533,7 @@ __Hard:__
 
 __Easy:__
 
-- 107 [Binary Tree Level Order Traversal II]()
+- 107 [Binary Tree Level Order Traversal II](cpp/BinaryTreeLvelOrderTraversalII/BinaryTreeLevelOrderTraversalII.md)
 - 102 [Binary Tree Level Order Traversal](cpp/BinaryTreeLvelOrderTraversal/BinaryTreeLevelOrderTraversal.md)
 - 111 [Minimum Depth of Binary Tree](cpp/MinimumDepthofBinaryTree/MinimumDepthofBinaryTree.md)
 
@@ -538,7 +545,7 @@ __Medium:__
 - 207 [Course Schedule]()
 - 210 [Course Schedule II]()
 - 133 [Clone Graph]()
-- 103 [Binary Tree Zigzag Level Order Traversal]()
+- 103 [Binary Tree Zigzag Level Order Traversal](cpp/BinaryTreeZigzagLevelOrderTraversal/BinaryTreeZigzagLevelOrderTraversal.md)
 - 130 [Surrounded Regions]()
 
 __Hard:__

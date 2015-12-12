@@ -1,0 +1,30 @@
+class Solution {
+public:
+    vector<int> getRow(int rowIndex) {
+        vector<int> arr(rowIndex+1, 0);
+        arr[0]=1;
+        for (int i=0; i<rowIndex; i++) {
+            for (int j=i+1; j>0; j--) {
+                arr[j] += arr[j-1];
+                cout<<"i="<<i<<"; j="<<j<<"\t";
+                for (int i=0; i<arr.size(); i++) {
+                    cout << arr[i] << ", " << "\t";
+                }
+                cout<<endl;
+            }
+        }
+        
+        return arr;
+    }
+    
+};
+
+/**********Output**********
+i=0; j=1	1, 	1, 	0, 	0, 	
+i=1; j=2	1, 	1, 	1, 	0, 	
+i=1; j=1	1, 	2, 	1, 	0, 	
+i=2; j=3	1, 	2, 	1, 	1, 	
+i=2; j=2	1, 	2, 	3, 	1, 	
+i=2; j=1	1, 	3, 	3, 	1, 	
+1, 	3, 	3, 	1, 
+**************************/
