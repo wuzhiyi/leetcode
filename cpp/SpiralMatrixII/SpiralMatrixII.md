@@ -15,14 +15,6 @@ You should return the following matrix:
 
 __Code:__
 
-	#include <stdio.h>
-	#include <stdlib.h>
-	#include <iostream>
-	#include <vector>
-	using namespace std;
-
-	vector<vector<int> > generateMatrix(int n, int m);
-
 	vector<vector<int> > generateMatrix(int n) {
 	    return generateMatrix(n, n);
 	}
@@ -59,36 +51,3 @@ __Code:__
 	    }
 	    return matrix;
 	}
-
-
-	void printArray(vector<int> v)
-	{
-	    cout << "[";
-	    for(int j=0; j<v.size(); j++) {
-	        printf(" %02d", v[j]);
-	    }
-	    cout << "]" << endl;;
-	}
-
-	void printMatrix(vector< vector<int> > &vv)
-	{
-	    for(int i=0; i<vv.size(); i++) {
-	        printArray(vv[i]);
-	    }
-	    cout << endl;
-	}
-
-
-	int main(int argc, char** argv)
-	{
-	    int n=3, m=3;
-	    if (argc>1){
-	        m = n = atoi(argv[1]);
-	    }
-	    if (argc>2){
-	        m = atoi(argv[2]);
-	    }
-	    vector< vector<int> > matrix = generateMatrix(n, m);
-	    printMatrix(matrix);
-	    return 0;
-}

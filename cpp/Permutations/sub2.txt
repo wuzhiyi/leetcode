@@ -1,0 +1,12 @@
+nums = [1,2,3]
+
+//loop
+RUN:
+vector<vector<int>> permute(nums) {
+	vector<vector<int>> vv;
+	vv.push_back(nums) //vv=[[1,2,3]]
+	if (nums.size()=3<2) //FALSE
+	int pos=0;
+	while (pos=0<(nums.size()-1)=2) {
+		int size=vv.size()=1;
+		for (i=0; 

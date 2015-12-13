@@ -1,10 +1,13 @@
+/* loop
+ */
+
 class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
         vector<vector<int>> vv;
         vv.push_back(nums);
         if (nums.size()<2) return vv;
-        
+        //permute基准点pos
         int pos=0;
         while (pos<nums.size()-1) {
             int size = vv.size();

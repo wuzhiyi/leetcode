@@ -7,10 +7,27 @@ vector<vector<int>> permute(nums) {
 	if (nums.size()=3 ==0) //FALSE;
 	permuteHelper(vv, v, nums);
 	return vv;
-void permuteHelper(vv, v, nums) {
+void permuteHelper(vv, v=[], nums) {
 	if (v.size()=0 ==nums.size()=3) //FALSE
 	for (i=0; i<nums.size()=3; i++) {
 		if (find(v.begin(),v.end(),nums[0]=1) != v.end()) //FALSE
-		v.push_back(nums[0]=1); //v=[1]
-		permuteHelper(vv, v, nums);
-		v.pop_back();
+		v.push_back(nums[0]=1); //v=[1];
+		permuteHelper(vv, v=[1], nums);
+>>>>>>>>>>>>>>>>	if (v.size()=1 ==nums.size()=3) //FALSE
+			for (i=0; i<nums.size()=3; i++) {
+				if (find(v.begin(),v.end(),nums[0]=1) != v.end()) continue;
+			for (i=1; i<3; i++) {
+				if (find(v.begin(),v.end(),nums[1]=2) != v.end()) //FALSE
+				v.push_back(nums[1]=2); //v=[1,2];
+				permuteHelper(vv, v=[1,2], nums);
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>	if (v.size()=2 ==nums.size()=3) //FALSE
+					for (i=0; i<nums.size()=3; i++) {
+						if (find(v.begin(),v.end(),nums[0]=1) != v.end()) continue;
+					for (i=1; i<nums.size()=3; i++) {
+						if (find(v.begin(),v.end(),nums[1]=2) != v.end()) continue;
+					for (i=2; i<3; i++) {
+						if (find(v.begin(),v.end(),nums[2]=3) != v.end()) //FALSE
+						v.push_back(nums[2]=3); //v=[1,2,3];
+						permuteHelper(vv, v=[1,2,3], nums);
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>	if (v.size()=3 ==nums.size()=3) {
+								vv.push_back(v); //vv=[[1,2,3]];

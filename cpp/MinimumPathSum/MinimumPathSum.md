@@ -6,11 +6,6 @@ __Note:__ You can only move either down or right at any point in time.
 
 __Code:__
 
-	#include <limits.h>
-	#include <iostream>
-	#include <vector>
-	using namespace std;
-
 	int minPathSum(vector<vector<int> > &grid) {
 	    if (grid.size()<=0){
 	        return 0;
@@ -29,22 +24,4 @@ __Code:__
 	    }
 
 	    return grid[grid.size()-1][grid[0].size()-1];
-	}
-
-
-	int main()
-	{
-	    int a[6][2]={{7,2},{6,6},{8,6},{8,7},{5,0},{6,0}};
-	    vector< vector<int> > grid;
-	    for(int i=0; i<6; i++){
-	        vector<int> v;
-	        for(int j=0; j<2; j++){
-	            v.push_back(a[i][j]);
-	        }
-	        grid.push_back(v);
-	    }
-	    
-	    cout << "minPathSum=" << minPathSum(grid) << endl;
-
-	    return 0;
 	}

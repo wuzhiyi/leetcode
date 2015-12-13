@@ -22,10 +22,6 @@ Answer: 3
 
 __Code:__
 
-	#include <iostream>
-	#include <vector>
-	using namespace std;
-
 	void mark(vector<vector<char> >& grid, int r, int c){
 	    if ( r<0 || r>=grid.size() ||
 	            c<0 || c>=grid[0].size() ||
@@ -56,45 +52,4 @@ __Code:__
 	        }
 	    }
 	    return result;
-	}
-
-	void initGrid( string g[], int len, vector<vector<char> >& grid )
-	{
-	    for (int i=0; i<len; i++){
-	       grid.push_back(vector<char>(g[i].begin(), g[i].end())); 
-	    }
-	}
-
-	int main(void)
-	{
-	    vector< vector<char> > grid;
-	    grid.push_back( vector<char>(1, '1') );
-
-	    cout << numIslands(grid) << endl;
-
-
-	    grid.clear();
-
-	    string g1[] = { "11110",
-	                    "11010", 
-	                    "11000", 
-	                    "00000" };
-
-	    initGrid(g1, 4, grid);
-	    cout << numIslands(grid) << endl;
-
-
-
-	    grid.clear();
-
-	    string g2[] = { "11000",
-	                    "11000",
-	                    "00100",
-	                    "00011" };
-
-	    initGrid(g2, 4, grid);
-	    cout << numIslands(grid) << endl;
-
-
-	    return 0;
 	}

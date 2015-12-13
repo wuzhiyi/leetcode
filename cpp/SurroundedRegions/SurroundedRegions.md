@@ -20,13 +20,6 @@ After running your function, the board should be:
 
 __Code:__
 
-	#include <stdlib.h>
-	#include <time.h>
-	#include <iostream>
-	#include <vector>
-	#include <queue>
-	using namespace std;
-
 	void print(vector< vector<char> > &board);
 
 
@@ -195,36 +188,4 @@ __Code:__
 	        }
 	        board.push_back(line);
 	    }
-	}
-
-	void print(vector< vector<char> > &board) {
-	    for(int i=0; i<board.size(); i++){
-	        for(int j=0; j<board[i].size(); j++){
-	            cout << board[i][j] << " ";
-	        }
-	        cout << endl;
-	    }
-	    cout << endl;
-	}
-
-	int main(int argc, char** argv )
-	{
-	    int row, col;
-	    row = col = 6;
-	    if (argc>1){
-	        row = atoi(argv[1]);
-	    }
-	    if (argc>2){
-	        col = atoi(argv[2]);
-	    }
-
-	    vector< vector<char> > data;
-
-	    construct(data, row, col);
-	    print(data);
-
-	    solve(data);
-	    print(data);
-
-	    return 0;
 	}

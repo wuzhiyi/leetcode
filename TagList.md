@@ -482,7 +482,7 @@ __Medium:__
 - 114 [Flatten Binary Tree to Linked List](cpp/FlattenBinaryTreetoLinkedList/FlattenBinaryTreetoLinkedList.md)
 - 297 [Serialize and Deserialize Binary Tree]()
 - 94 [Binary Tree Inorder Traversal](cpp/BinaryTreeInorderTraversal/BinaryTreeInorderTraversal.md)
-- 116 [Populating Next Right Pointers in Each Node]()
+- 116 [Populating Next Right Pointers in Each Node](cpp/PopulatingNextRightPointersinEachNode/PopulatingNextRightPointersinEachNode.md)
 - 96 [Unique Binary Search Trees](cpp/UniqueBinarySearchTrees/UniqueBinarySearchTrees.md)
 - 117 [Populating Next Right Pointers in Each Node II]()
 
@@ -510,23 +510,23 @@ __Medium:__
 - 129 [Sum Root to Leaf Numbers](cpp/SumRoottoLeafNumbers/SumRoottoLeafNumbers.md)
 - 199 [Binary Tree Right Side View]()
 - 113 [Path Sum II](cpp/PathSumII/PathSumII.md)
-- 200 [Number of Islands]()
-- 133 [Clone Graph]()
+- 200 [Number of Islands](cpp/NumberofIslands/NumberofIslands.md)
+- 133 [Clone Graph](cpp/CloneGraph/CloneGraph.md)
 - 106 [Construct Binary Tree from Inorder and Postorder Traversal]()
 - 105 [Construct Binary Tree from Preorder and Inorder Traversal]()
 - 114 [Flatten Binary Tree to Linked List]()
-- 207 [Course Schedule]()
+- 207 [Course Schedule](cpp/CourseSchedule/CourseSchedule.md)
 - 210 [Course Schedule II]()
-- 109 [Convert Sorted List to Binary Search Tree]()
-- 108 [Convert Sorted Array to Binary Search Tree]()
+- 109 [Convert Sorted List to Binary Search Tree](cpp/ConvertSortedListtoBinarySearchTree/ConvertSortedListtoBinarySearchTree.md)
+- 108 [Convert Sorted Array to Binary Search Tree](cpp/ConvertSortedArraytoBinarySearchTree/ConvertSortedArraytoBinarySearchTree.md)
 - 98 [Validate Binary Search Tree]()
-- 116 [Populating Next Right Pointers in Each Node]()
+- 116 [Populating Next Right Pointers in Each Node](cpp/PopulatingNextRightPointersinEachNode/PopulatingNextRightPointersinEachNode.md)
 
 __Hard:__
 
 - 301 [Remove Invalid Parentheses]()
 - 117 [Popylating Next Right Pointers in Each Node II]()
-- 99 [Recover Binary Search Tree]()
+- 99 [Recover Binary Search Tree](cpp/RecoverBinarySearchTree/RecoverBinarySearchTree.md)
 - 124 [Binary Tree Maximum Path Sum]()
 
 ##Breadth-first Search
@@ -540,11 +540,11 @@ __Easy:__
 __Medium:__
 
 - 279 [Perfect Squares](cpp/PerfectSquares/PerfectSquares.md)
-- 200 [Number of Islands]()
+- 200 [Number of Islands](cpp/NumberofIslands/NumberofIslands.md)
 - 199 [Binary Tree Right Side View]()
-- 207 [Course Schedule]()
+- 207 [Course Schedule](cpp/CourseSchedule/CourseSchedule.md)
 - 210 [Course Schedule II]()
-- 133 [Clone Graph]()
+- 133 [Clone Graph](cpp/CloneGraph/CloneGraph.md)
 - 103 [Binary Tree Zigzag Level Order Traversal](cpp/BinaryTreeZigzagLevelOrderTraversal/BinaryTreeZigzagLevelOrderTraversal.md)
 - 130 [Surrounded Regions]()
 
@@ -557,36 +557,36 @@ __Hard:__
 
 __Medium:__
 
-- 207 [Course Schedule]()
+- 207 [Course Schedule](cpp/CourseSchedule/CourseSchedule.md)
 - 210 [Course Scheudle II]()
-- 133 [Clone Graph]()
+- 133 [Clone Graph](cpp/CloneGraph/CloneGraph.md)
 
 ##Topological Sort
 
 __Medium:__
 
-- 207 [Course Schedule]()
+- 207 [Course Schedule](cpp/CourseSchedule/CourseSchedule.md)
 - 210 [Course Schedule II]()
 
 ##Trie
 
 __Medium:__
 
-- 208 [Implement Trie (Prefix Tree)]()
+- 208 [Implement Trie (Prefix Tree)](cpp/ImplementTriePrefixTree/ImplementTriePrefixTree.md)
 - 211 [Add and Search Word - Data structure design]()
 
 ##Binary Search Tree
 
 __Medium:__
 
-- 220 [Contains Cuplicate III]()
+- 220 [Contains Duplicate III](cpp/ContainsDuplicateIII/ContainsDuplicateIII.md)
 
 ##Union Find
 
 __Medium:__
 
 - 130 [Surrounded Regions]()
-- 200 [Number of Islands]()
+- 200 [Number of Islands](cpp/NumberofIslands/NumberofIslands.md)
 
 ##Design
 
@@ -599,7 +599,7 @@ __Easy:__
 __Medium:__
 
 - 284 [Peeking Iterator]()
-- 208 [Implement Trie (Prefix Tree)]()
+- 208 [Implement Trie (Prefix Tree)](cpp/ImplementTriePrefixTree/ImplementTriePrefixTree.md)
 - 211 [Add and Search Word - Data structure design]()
 - 173 [Binary Search Tree Iterator](cpp/BinarySearchTreeIterator/BinarySearchTreeIterator.md)
 - 297 [Serialize and Deserialize Binary Tree]()
