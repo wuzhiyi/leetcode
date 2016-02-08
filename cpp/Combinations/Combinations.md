@@ -16,10 +16,6 @@ If n = 4 and k = 2, a solution is:
 
 __Code:__
 
-	void getCombination(int n, int k, vector<int>& solution, vector< vector<int> >& result );
-	vector<vector<int> > combine1(int n, int k); 
-	vector<vector<int> > combine2(int n, int k);
-
 	vector<vector<int> > combine1(int n, int k) {
 	    vector<vector<int> > result;
 	    vector<int> solution;
